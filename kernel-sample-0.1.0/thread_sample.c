@@ -54,6 +54,13 @@ static void thread2_entry(void *param)
     (线程控制块和线程栈依然在idle线程中释放) */
 }
 
+static char thread3_stack[1024];
+static struct rt_thread thread3;
+static void thread3_entry(void *param)
+{
+    rt_kprintf("thread3 exit\n");
+}
+
 /* 删除线程示例的初始化 */
 int thread_sample(void)
 {
@@ -76,7 +83,17 @@ int thread_sample(void)
                    sizeof(thread2_stack),
                    THREAD_PRIORITY - 1, THREAD_TIMESLICE);
     rt_thread_startup(&thread2);
-
+    
+									 /*artemisprox:静态线程3*/
+		rt_thread_init(&thread3,
+                   "thread3",
+                   thread3_entry,
+                   RT_NULL,
+                   &thread3_stack[0],
+                   sizeof(thread3_stack),
+                   THREAD_PRIORITY - 2, THREAD_TIMESLICE);
+    rt_thread_startup(&thread3);
+									 
     return 0;
 }
 

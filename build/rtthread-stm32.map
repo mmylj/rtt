@@ -557,23 +557,23 @@ Image Symbol Table
     Symbol Name                              Value     Ov Type        Size  Object(Section)
 
     ../clib/../cmprslib/zerorunl2.c          0x00000000   Number         0  __dczerorl2.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
     ../clib/microlib/string/memcmp.c         0x00000000   Number         0  memcmp.o ABSOLUTE
-    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
     ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
     ../clib/microlib/string/memset.c         0x00000000   Number         0  memseta.o ABSOLUTE
     ../clib/microlib/string/strcat.c         0x00000000   Number         0  strcat.o ABSOLUTE
     ../clib/microlib/string/strcpy.c         0x00000000   Number         0  strcpy.o ABSOLUTE
@@ -924,240 +924,241 @@ Image Symbol Table
     .text                                    0x0800d398   Section        0  thread_sample.o(.text)
     thread1_entry                            0x0800d399   Thumb Code    24  thread_sample.o(.text)
     thread2_entry                            0x0800d3b1   Thumb Code    32  thread_sample.o(.text)
-    .text                                    0x0800d480   Section        0  timer_sample.o(.text)
-    timeout1                                 0x0800d481   Thumb Code    46  timer_sample.o(.text)
-    timeout2                                 0x0800d4af   Thumb Code    12  timer_sample.o(.text)
-    .text                                    0x0800d584   Section        0  timeslice_sample.o(.text)
-    thread_entry                             0x0800d585   Thumb Code    44  timeslice_sample.o(.text)
-    .text                                    0x0800d638   Section        0  memcpya.o(.text)
-    .text                                    0x0800d65c   Section        0  memseta.o(.text)
-    .text                                    0x0800d680   Section        0  strcat.o(.text)
-    .text                                    0x0800d698   Section        0  strlen.o(.text)
-    .text                                    0x0800d6a6   Section        0  memcmp.o(.text)
-    .text                                    0x0800d6c0   Section        0  strcpy.o(.text)
-    .text                                    0x0800d6d2   Section        0  strncmp.o(.text)
-    .text                                    0x0800d6f0   Section       36  init.o(.text)
-    .text                                    0x0800d714   Section        0  __dczerorl2.o(.text)
-    i.__scatterload_copy                     0x0800d76a   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x0800d778   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x0800d77a   Section       14  handlers.o(i.__scatterload_zeroinit)
-    .constdata                               0x0800d788   Section       19  board.o(.constdata)
-    __FUNCTION__                             0x0800d788   Data          19  board.o(.constdata)
-    .constdata                               0x0800d79c   Section     2408  drv_gpio.o(.constdata)
-    pins                                     0x0800d79c   Data        2320  drv_gpio.o(.constdata)
-    pin_irq_map                              0x0800e0ac   Data          64  drv_gpio.o(.constdata)
-    _stm32_pin_ops                           0x0800e0ec   Data          24  drv_gpio.o(.constdata)
-    .constdata                               0x0800e104   Section      111  drv_usart.o(.constdata)
-    stm32_uart_ops                           0x0800e104   Data          20  drv_usart.o(.constdata)
-    __FUNCTION__                             0x0800e118   Data          16  drv_usart.o(.constdata)
-    __FUNCTION__                             0x0800e128   Data          14  drv_usart.o(.constdata)
-    __FUNCTION__                             0x0800e136   Data          11  drv_usart.o(.constdata)
-    __FUNCTION__                             0x0800e141   Data          11  drv_usart.o(.constdata)
-    __FUNCTION__                             0x0800e14c   Data           9  drv_usart.o(.constdata)
-    __FUNCTION__                             0x0800e160   Data          19  drv_usart.o(.constdata)
-    .constdata                               0x0800e173   Section       24  system_stm32f1xx.o(.constdata)
-    .constdata                               0x0800e18b   Section       20  components.o(.constdata)
-    __FUNCTION__                             0x0800e18b   Data          20  components.o(.constdata)
-    .constdata                               0x0800e19f   Section      201  device.o(.constdata)
-    __FUNCTION__                             0x0800e19f   Data          21  device.o(.constdata)
-    __FUNCTION__                             0x0800e1b4   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x0800e1c3   Data          18  device.o(.constdata)
-    __FUNCTION__                             0x0800e1d5   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x0800e1e4   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x0800e1f3   Data          16  device.o(.constdata)
-    __FUNCTION__                             0x0800e203   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x0800e212   Data          16  device.o(.constdata)
-    __FUNCTION__                             0x0800e222   Data          18  device.o(.constdata)
-    __FUNCTION__                             0x0800e234   Data          26  device.o(.constdata)
-    __FUNCTION__                             0x0800e24e   Data          26  device.o(.constdata)
-    .constdata                               0x0800e268   Section       22  idle.o(.constdata)
-    __FUNCTION__                             0x0800e268   Data          22  idle.o(.constdata)
-    .constdata                               0x0800e27e   Section      503  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e27e   Data          12  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e28a   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e298   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e2a6   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e2b4   Data          12  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e2c0   Data          15  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e2cf   Data          15  ipc.o(.constdata)
+    thread3_entry                            0x0800d3d1   Thumb Code    12  thread_sample.o(.text)
+    .text                                    0x0800d4d4   Section        0  timer_sample.o(.text)
+    timeout1                                 0x0800d4d5   Thumb Code    46  timer_sample.o(.text)
+    timeout2                                 0x0800d503   Thumb Code    12  timer_sample.o(.text)
+    .text                                    0x0800d5d8   Section        0  timeslice_sample.o(.text)
+    thread_entry                             0x0800d5d9   Thumb Code    44  timeslice_sample.o(.text)
+    .text                                    0x0800d68c   Section        0  memcpya.o(.text)
+    .text                                    0x0800d6b0   Section        0  memseta.o(.text)
+    .text                                    0x0800d6d4   Section        0  strcat.o(.text)
+    .text                                    0x0800d6ec   Section        0  strlen.o(.text)
+    .text                                    0x0800d6fa   Section        0  memcmp.o(.text)
+    .text                                    0x0800d714   Section        0  strcpy.o(.text)
+    .text                                    0x0800d726   Section        0  strncmp.o(.text)
+    .text                                    0x0800d744   Section       36  init.o(.text)
+    .text                                    0x0800d768   Section        0  __dczerorl2.o(.text)
+    i.__scatterload_copy                     0x0800d7be   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x0800d7cc   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x0800d7ce   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x0800d7dc   Section       19  board.o(.constdata)
+    __FUNCTION__                             0x0800d7dc   Data          19  board.o(.constdata)
+    .constdata                               0x0800d7f0   Section     2408  drv_gpio.o(.constdata)
+    pins                                     0x0800d7f0   Data        2320  drv_gpio.o(.constdata)
+    pin_irq_map                              0x0800e100   Data          64  drv_gpio.o(.constdata)
+    _stm32_pin_ops                           0x0800e140   Data          24  drv_gpio.o(.constdata)
+    .constdata                               0x0800e158   Section      111  drv_usart.o(.constdata)
+    stm32_uart_ops                           0x0800e158   Data          20  drv_usart.o(.constdata)
+    __FUNCTION__                             0x0800e16c   Data          16  drv_usart.o(.constdata)
+    __FUNCTION__                             0x0800e17c   Data          14  drv_usart.o(.constdata)
+    __FUNCTION__                             0x0800e18a   Data          11  drv_usart.o(.constdata)
+    __FUNCTION__                             0x0800e195   Data          11  drv_usart.o(.constdata)
+    __FUNCTION__                             0x0800e1a0   Data           9  drv_usart.o(.constdata)
+    __FUNCTION__                             0x0800e1b4   Data          19  drv_usart.o(.constdata)
+    .constdata                               0x0800e1c7   Section       24  system_stm32f1xx.o(.constdata)
+    .constdata                               0x0800e1df   Section       20  components.o(.constdata)
+    __FUNCTION__                             0x0800e1df   Data          20  components.o(.constdata)
+    .constdata                               0x0800e1f3   Section      201  device.o(.constdata)
+    __FUNCTION__                             0x0800e1f3   Data          21  device.o(.constdata)
+    __FUNCTION__                             0x0800e208   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x0800e217   Data          18  device.o(.constdata)
+    __FUNCTION__                             0x0800e229   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x0800e238   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x0800e247   Data          16  device.o(.constdata)
+    __FUNCTION__                             0x0800e257   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x0800e266   Data          16  device.o(.constdata)
+    __FUNCTION__                             0x0800e276   Data          18  device.o(.constdata)
+    __FUNCTION__                             0x0800e288   Data          26  device.o(.constdata)
+    __FUNCTION__                             0x0800e2a2   Data          26  device.o(.constdata)
+    .constdata                               0x0800e2bc   Section       22  idle.o(.constdata)
+    __FUNCTION__                             0x0800e2bc   Data          22  idle.o(.constdata)
+    .constdata                               0x0800e2d2   Section      503  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e2d2   Data          12  ipc.o(.constdata)
     __FUNCTION__                             0x0800e2de   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e2ec   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e2fc   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e30c   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e31c   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e32a   Data          17  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e33b   Data          17  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e34c   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e35a   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e36a   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e37a   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e38a   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e398   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3a6   Data          17  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3b7   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3c2   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3cf   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3dc   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3e9   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e3f9   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e404   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e412   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e41d   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e42a   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e437   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e444   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e44f   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e45c   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x0800e467   Data          14  ipc.o(.constdata)
-    .constdata                               0x0800e475   Section      290  kservice.o(.constdata)
-    small_digits                             0x0800e575   Data          17  kservice.o(.constdata)
-    large_digits                             0x0800e586   Data          17  kservice.o(.constdata)
-    .constdata                               0x0800e597   Section       70  mem.o(.constdata)
-    __FUNCTION__                             0x0800e597   Data          11  mem.o(.constdata)
-    __FUNCTION__                             0x0800e5a2   Data          20  mem.o(.constdata)
-    __FUNCTION__                             0x0800e5b6   Data          10  mem.o(.constdata)
-    __FUNCTION__                             0x0800e5c0   Data          11  mem.o(.constdata)
-    __FUNCTION__                             0x0800e5cb   Data          10  mem.o(.constdata)
-    __FUNCTION__                             0x0800e5d5   Data           8  mem.o(.constdata)
-    .constdata                               0x0800e5dd   Section       62  mempool.o(.constdata)
-    __FUNCTION__                             0x0800e5dd   Data          11  mempool.o(.constdata)
-    __FUNCTION__                             0x0800e5e8   Data          13  mempool.o(.constdata)
-    __FUNCTION__                             0x0800e5f5   Data          13  mempool.o(.constdata)
-    __FUNCTION__                             0x0800e602   Data          13  mempool.o(.constdata)
-    __FUNCTION__                             0x0800e60f   Data          12  mempool.o(.constdata)
-    .constdata                               0x0800e61b   Section      128  object.o(.constdata)
-    __FUNCTION__                             0x0800e61b   Data          15  object.o(.constdata)
-    __FUNCTION__                             0x0800e62a   Data          17  object.o(.constdata)
-    __FUNCTION__                             0x0800e63b   Data          19  object.o(.constdata)
-    __FUNCTION__                             0x0800e64e   Data          17  object.o(.constdata)
-    __FUNCTION__                             0x0800e65f   Data          26  object.o(.constdata)
-    __FUNCTION__                             0x0800e679   Data          19  object.o(.constdata)
-    __FUNCTION__                             0x0800e68c   Data          15  object.o(.constdata)
-    .constdata                               0x0800e69b   Section       78  scheduler.o(.constdata)
-    __FUNCTION__                             0x0800e69b   Data          26  scheduler.o(.constdata)
-    __FUNCTION__                             0x0800e6b5   Data          26  scheduler.o(.constdata)
-    __FUNCTION__                             0x0800e6cf   Data          26  scheduler.o(.constdata)
-    .constdata                               0x0800e6e9   Section       72  signal.o(.constdata)
-    __FUNCTION__                             0x0800e6e9   Data          15  signal.o(.constdata)
-    __FUNCTION__                             0x0800e6f8   Data          20  signal.o(.constdata)
-    __FUNCTION__                             0x0800e70c   Data          15  signal.o(.constdata)
-    __FUNCTION__                             0x0800e71b   Data          22  signal.o(.constdata)
-    .constdata                               0x0800e731   Section       92  timer.o(.constdata)
-    __FUNCTION__                             0x0800e731   Data          14  timer.o(.constdata)
-    __FUNCTION__                             0x0800e73f   Data          16  timer.o(.constdata)
-    __FUNCTION__                             0x0800e74f   Data          16  timer.o(.constdata)
-    __FUNCTION__                             0x0800e75f   Data          15  timer.o(.constdata)
-    __FUNCTION__                             0x0800e76e   Data          14  timer.o(.constdata)
-    __FUNCTION__                             0x0800e77c   Data          17  timer.o(.constdata)
-    .constdata                               0x0800e78d   Section      185  thread.o(.constdata)
-    __FUNCTION__                             0x0800e78d   Data          16  thread.o(.constdata)
-    __FUNCTION__                             0x0800e79d   Data          15  thread.o(.constdata)
-    __FUNCTION__                             0x0800e7ac   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x0800e7be   Data          17  thread.o(.constdata)
-    __FUNCTION__                             0x0800e7cf   Data          17  thread.o(.constdata)
-    __FUNCTION__                             0x0800e7e0   Data          16  thread.o(.constdata)
-    __FUNCTION__                             0x0800e7f0   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x0800e802   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x0800e814   Data          17  thread.o(.constdata)
-    __FUNCTION__                             0x0800e825   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x0800e837   Data          15  thread.o(.constdata)
-    .constdata                               0x0800e846   Section       19  cpuport.o(.constdata)
-    __FUNCTION__                             0x0800e846   Data          19  cpuport.o(.constdata)
-    .constdata                               0x0800e859   Section      126  pin.o(.constdata)
-    __FUNCTION__                             0x0800e859   Data          10  pin.o(.constdata)
-    __FUNCTION__                             0x0800e863   Data          11  pin.o(.constdata)
-    __FUNCTION__                             0x0800e86e   Data          13  pin.o(.constdata)
-    __FUNCTION__                             0x0800e87b   Data          18  pin.o(.constdata)
-    __FUNCTION__                             0x0800e88d   Data          19  pin.o(.constdata)
-    __FUNCTION__                             0x0800e8a0   Data          18  pin.o(.constdata)
-    __FUNCTION__                             0x0800e8b2   Data          12  pin.o(.constdata)
-    __FUNCTION__                             0x0800e8be   Data          13  pin.o(.constdata)
-    __FUNCTION__                             0x0800e8cb   Data          12  pin.o(.constdata)
-    .constdata                               0x0800e8d7   Section      181  serial.o(.constdata)
-    __FUNCTION__                             0x0800e8d7   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0800e8e7   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0800e8f7   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x0800e906   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x0800e915   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x0800e924   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0800e934   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x0800e943   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0800e953   Data          18  serial.o(.constdata)
-    __FUNCTION__                             0x0800e965   Data          22  serial.o(.constdata)
-    __FUNCTION__                             0x0800e97b   Data          17  serial.o(.constdata)
-    .constdata                               0x0800e98c   Section       91  shell.o(.constdata)
-    __FUNCTION__                             0x0800e98c   Data          14  shell.o(.constdata)
-    __FUNCTION__                             0x0800e99a   Data          13  shell.o(.constdata)
-    __FUNCTION__                             0x0800e9a7   Data          17  shell.o(.constdata)
-    __FUNCTION__                             0x0800e9b8   Data          17  shell.o(.constdata)
-    __FUNCTION__                             0x0800e9c9   Data          15  shell.o(.constdata)
-    __FUNCTION__                             0x0800e9d8   Data          15  shell.o(.constdata)
-    .constdata                               0x0800e9e8   Section       80  cmd.o(.constdata)
-    .constdata                               0x0800ea38   Section       14  msh.o(.constdata)
-    __FUNCTION__                             0x0800ea38   Data          14  msh.o(.constdata)
-    .conststring                             0x0800ea48   Section       67  board.o(.conststring)
-    .conststring                             0x0800ea8c   Section      346  ipc.o(.conststring)
-    .conststring                             0x0800ebe8   Section      237  mem.o(.conststring)
-    .conststring                             0x0800ecd8   Section       66  thread.o(.conststring)
-    .conststring                             0x0800ed1c   Section      349  cmd.o(.conststring)
-    .rodata.name                             0x0800ee79   Section       37  main.o(.rodata.name)
-    .rodata.name                             0x0800ee9e   Section       39  mem.o(.rodata.name)
-    .rodata.name                             0x0800eec5   Section      105  pin.o(.rodata.name)
-    .rodata.name                             0x0800ef2e   Section      901  cmd.o(.rodata.name)
-    .rodata.name                             0x0800f2b3   Section       33  msh.o(.rodata.name)
-    .rodata.name                             0x0800f2d4   Section      123  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x0800f34f   Section       34  dynmem_sample.o(.rodata.name)
-    .rodata.name                             0x0800f371   Section       32  event_sample.o(.rodata.name)
-    .rodata.name                             0x0800f391   Section       40  idlehook_sample.o(.rodata.name)
-    .rodata.name                             0x0800f3b9   Section       40  interrupt_sample.o(.rodata.name)
-    .rodata.name                             0x0800f3e1   Section       36  mailbox_sample.o(.rodata.name)
-    .rodata.name                             0x0800f405   Section       36  memp_sample.o(.rodata.name)
-    .rodata.name                             0x0800f429   Section       30  msgq_sample.o(.rodata.name)
-    .rodata.name                             0x0800f447   Section       32  mutex_sample.o(.rodata.name)
-    .rodata.name                             0x0800f467   Section       41  priority_inversion.o(.rodata.name)
-    .rodata.name                             0x0800f490   Section       49  producer_consumer.o(.rodata.name)
-    .rodata.name                             0x0800f4c1   Section       43  scheduler_hook.o(.rodata.name)
-    .rodata.name                             0x0800f4ec   Section       40  semaphore_sample.o(.rodata.name)
-    .rodata.name                             0x0800f514   Section       34  signal_sample.o(.rodata.name)
-    .rodata.name                             0x0800f536   Section       34  thread_sample.o(.rodata.name)
-    .rodata.name                             0x0800f558   Section       32  timer_sample.o(.rodata.name)
-    .rodata.name                             0x0800f578   Section       40  timeslice_sample.o(.rodata.name)
-    .rti_fn.0                                0x0800f5a0   Section        4  components.o(.rti_fn.0)
-    __tagsym$$used                           0x0800f5a0   Number         0  components.o(.rti_fn.0)
-    .rti_fn.0.end                            0x0800f5a4   Section        4  components.o(.rti_fn.0.end)
-    __tagsym$$used                           0x0800f5a4   Number         0  components.o(.rti_fn.0.end)
-    .rti_fn.1                                0x0800f5a8   Section        4  drv_gpio.o(.rti_fn.1)
-    __tagsym$$used                           0x0800f5a8   Number         0  drv_gpio.o(.rti_fn.1)
-    .rti_fn.1                                0x0800f5ac   Section        4  drv_usart.o(.rti_fn.1)
-    __tagsym$$used                           0x0800f5ac   Number         0  drv_usart.o(.rti_fn.1)
-    .rti_fn.1.end                            0x0800f5b0   Section        4  components.o(.rti_fn.1.end)
-    __tagsym$$used                           0x0800f5b0   Number         0  components.o(.rti_fn.1.end)
-    .rti_fn.6                                0x0800f5b4   Section        4  shell.o(.rti_fn.6)
-    __tagsym$$used                           0x0800f5b4   Number         0  shell.o(.rti_fn.6)
-    .rti_fn.6.end                            0x0800f5b8   Section        4  components.o(.rti_fn.6.end)
-    __tagsym$$used                           0x0800f5b8   Number         0  components.o(.rti_fn.6.end)
-    FSymTab                                  0x0800f5bc   Section       12  main.o(FSymTab)
-    FSymTab                                  0x0800f5c8   Section       12  mem.o(FSymTab)
-    FSymTab                                  0x0800f5d4   Section       36  pin.o(FSymTab)
-    FSymTab                                  0x0800f5f8   Section      288  cmd.o(FSymTab)
-    FSymTab                                  0x0800f718   Section       12  msh.o(FSymTab)
-    FSymTab                                  0x0800f724   Section       36  msh_cmd.o(FSymTab)
-    FSymTab                                  0x0800f748   Section       12  dynmem_sample.o(FSymTab)
-    FSymTab                                  0x0800f754   Section       12  event_sample.o(FSymTab)
-    FSymTab                                  0x0800f760   Section       12  idlehook_sample.o(FSymTab)
-    FSymTab                                  0x0800f76c   Section       12  interrupt_sample.o(FSymTab)
-    FSymTab                                  0x0800f778   Section       12  mailbox_sample.o(FSymTab)
-    FSymTab                                  0x0800f784   Section       12  memp_sample.o(FSymTab)
-    FSymTab                                  0x0800f790   Section       12  msgq_sample.o(FSymTab)
-    FSymTab                                  0x0800f79c   Section       12  mutex_sample.o(FSymTab)
-    FSymTab                                  0x0800f7a8   Section       12  priority_inversion.o(FSymTab)
-    FSymTab                                  0x0800f7b4   Section       12  producer_consumer.o(FSymTab)
-    FSymTab                                  0x0800f7c0   Section       12  scheduler_hook.o(FSymTab)
-    FSymTab                                  0x0800f7cc   Section       12  semaphore_sample.o(FSymTab)
-    FSymTab                                  0x0800f7d8   Section       12  signal_sample.o(FSymTab)
-    FSymTab                                  0x0800f7e4   Section       12  thread_sample.o(FSymTab)
-    FSymTab                                  0x0800f7f0   Section       12  timer_sample.o(FSymTab)
-    FSymTab                                  0x0800f7fc   Section       12  timeslice_sample.o(FSymTab)
+    __FUNCTION__                             0x0800e2ec   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e2fa   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e308   Data          12  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e314   Data          15  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e323   Data          15  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e332   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e340   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e350   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e360   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e370   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e37e   Data          17  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e38f   Data          17  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3a0   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3ae   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3be   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3ce   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3de   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3ec   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e3fa   Data          17  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e40b   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e416   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e423   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e430   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e43d   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e44d   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e458   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e466   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e471   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e47e   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e48b   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e498   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e4a3   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e4b0   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x0800e4bb   Data          14  ipc.o(.constdata)
+    .constdata                               0x0800e4c9   Section      290  kservice.o(.constdata)
+    small_digits                             0x0800e5c9   Data          17  kservice.o(.constdata)
+    large_digits                             0x0800e5da   Data          17  kservice.o(.constdata)
+    .constdata                               0x0800e5eb   Section       70  mem.o(.constdata)
+    __FUNCTION__                             0x0800e5eb   Data          11  mem.o(.constdata)
+    __FUNCTION__                             0x0800e5f6   Data          20  mem.o(.constdata)
+    __FUNCTION__                             0x0800e60a   Data          10  mem.o(.constdata)
+    __FUNCTION__                             0x0800e614   Data          11  mem.o(.constdata)
+    __FUNCTION__                             0x0800e61f   Data          10  mem.o(.constdata)
+    __FUNCTION__                             0x0800e629   Data           8  mem.o(.constdata)
+    .constdata                               0x0800e631   Section       62  mempool.o(.constdata)
+    __FUNCTION__                             0x0800e631   Data          11  mempool.o(.constdata)
+    __FUNCTION__                             0x0800e63c   Data          13  mempool.o(.constdata)
+    __FUNCTION__                             0x0800e649   Data          13  mempool.o(.constdata)
+    __FUNCTION__                             0x0800e656   Data          13  mempool.o(.constdata)
+    __FUNCTION__                             0x0800e663   Data          12  mempool.o(.constdata)
+    .constdata                               0x0800e66f   Section      128  object.o(.constdata)
+    __FUNCTION__                             0x0800e66f   Data          15  object.o(.constdata)
+    __FUNCTION__                             0x0800e67e   Data          17  object.o(.constdata)
+    __FUNCTION__                             0x0800e68f   Data          19  object.o(.constdata)
+    __FUNCTION__                             0x0800e6a2   Data          17  object.o(.constdata)
+    __FUNCTION__                             0x0800e6b3   Data          26  object.o(.constdata)
+    __FUNCTION__                             0x0800e6cd   Data          19  object.o(.constdata)
+    __FUNCTION__                             0x0800e6e0   Data          15  object.o(.constdata)
+    .constdata                               0x0800e6ef   Section       78  scheduler.o(.constdata)
+    __FUNCTION__                             0x0800e6ef   Data          26  scheduler.o(.constdata)
+    __FUNCTION__                             0x0800e709   Data          26  scheduler.o(.constdata)
+    __FUNCTION__                             0x0800e723   Data          26  scheduler.o(.constdata)
+    .constdata                               0x0800e73d   Section       72  signal.o(.constdata)
+    __FUNCTION__                             0x0800e73d   Data          15  signal.o(.constdata)
+    __FUNCTION__                             0x0800e74c   Data          20  signal.o(.constdata)
+    __FUNCTION__                             0x0800e760   Data          15  signal.o(.constdata)
+    __FUNCTION__                             0x0800e76f   Data          22  signal.o(.constdata)
+    .constdata                               0x0800e785   Section       92  timer.o(.constdata)
+    __FUNCTION__                             0x0800e785   Data          14  timer.o(.constdata)
+    __FUNCTION__                             0x0800e793   Data          16  timer.o(.constdata)
+    __FUNCTION__                             0x0800e7a3   Data          16  timer.o(.constdata)
+    __FUNCTION__                             0x0800e7b3   Data          15  timer.o(.constdata)
+    __FUNCTION__                             0x0800e7c2   Data          14  timer.o(.constdata)
+    __FUNCTION__                             0x0800e7d0   Data          17  timer.o(.constdata)
+    .constdata                               0x0800e7e1   Section      185  thread.o(.constdata)
+    __FUNCTION__                             0x0800e7e1   Data          16  thread.o(.constdata)
+    __FUNCTION__                             0x0800e7f1   Data          15  thread.o(.constdata)
+    __FUNCTION__                             0x0800e800   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x0800e812   Data          17  thread.o(.constdata)
+    __FUNCTION__                             0x0800e823   Data          17  thread.o(.constdata)
+    __FUNCTION__                             0x0800e834   Data          16  thread.o(.constdata)
+    __FUNCTION__                             0x0800e844   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x0800e856   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x0800e868   Data          17  thread.o(.constdata)
+    __FUNCTION__                             0x0800e879   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x0800e88b   Data          15  thread.o(.constdata)
+    .constdata                               0x0800e89a   Section       19  cpuport.o(.constdata)
+    __FUNCTION__                             0x0800e89a   Data          19  cpuport.o(.constdata)
+    .constdata                               0x0800e8ad   Section      126  pin.o(.constdata)
+    __FUNCTION__                             0x0800e8ad   Data          10  pin.o(.constdata)
+    __FUNCTION__                             0x0800e8b7   Data          11  pin.o(.constdata)
+    __FUNCTION__                             0x0800e8c2   Data          13  pin.o(.constdata)
+    __FUNCTION__                             0x0800e8cf   Data          18  pin.o(.constdata)
+    __FUNCTION__                             0x0800e8e1   Data          19  pin.o(.constdata)
+    __FUNCTION__                             0x0800e8f4   Data          18  pin.o(.constdata)
+    __FUNCTION__                             0x0800e906   Data          12  pin.o(.constdata)
+    __FUNCTION__                             0x0800e912   Data          13  pin.o(.constdata)
+    __FUNCTION__                             0x0800e91f   Data          12  pin.o(.constdata)
+    .constdata                               0x0800e92b   Section      181  serial.o(.constdata)
+    __FUNCTION__                             0x0800e92b   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0800e93b   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0800e94b   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0800e95a   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0800e969   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0800e978   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0800e988   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0800e997   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0800e9a7   Data          18  serial.o(.constdata)
+    __FUNCTION__                             0x0800e9b9   Data          22  serial.o(.constdata)
+    __FUNCTION__                             0x0800e9cf   Data          17  serial.o(.constdata)
+    .constdata                               0x0800e9e0   Section       91  shell.o(.constdata)
+    __FUNCTION__                             0x0800e9e0   Data          14  shell.o(.constdata)
+    __FUNCTION__                             0x0800e9ee   Data          13  shell.o(.constdata)
+    __FUNCTION__                             0x0800e9fb   Data          17  shell.o(.constdata)
+    __FUNCTION__                             0x0800ea0c   Data          17  shell.o(.constdata)
+    __FUNCTION__                             0x0800ea1d   Data          15  shell.o(.constdata)
+    __FUNCTION__                             0x0800ea2c   Data          15  shell.o(.constdata)
+    .constdata                               0x0800ea3c   Section       80  cmd.o(.constdata)
+    .constdata                               0x0800ea8c   Section       14  msh.o(.constdata)
+    __FUNCTION__                             0x0800ea8c   Data          14  msh.o(.constdata)
+    .conststring                             0x0800ea9c   Section       67  board.o(.conststring)
+    .conststring                             0x0800eae0   Section      346  ipc.o(.conststring)
+    .conststring                             0x0800ec3c   Section      237  mem.o(.conststring)
+    .conststring                             0x0800ed2c   Section       66  thread.o(.conststring)
+    .conststring                             0x0800ed70   Section      349  cmd.o(.conststring)
+    .rodata.name                             0x0800eecd   Section       37  main.o(.rodata.name)
+    .rodata.name                             0x0800eef2   Section       39  mem.o(.rodata.name)
+    .rodata.name                             0x0800ef19   Section      105  pin.o(.rodata.name)
+    .rodata.name                             0x0800ef82   Section      901  cmd.o(.rodata.name)
+    .rodata.name                             0x0800f307   Section       33  msh.o(.rodata.name)
+    .rodata.name                             0x0800f328   Section      123  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x0800f3a3   Section       34  dynmem_sample.o(.rodata.name)
+    .rodata.name                             0x0800f3c5   Section       32  event_sample.o(.rodata.name)
+    .rodata.name                             0x0800f3e5   Section       40  idlehook_sample.o(.rodata.name)
+    .rodata.name                             0x0800f40d   Section       40  interrupt_sample.o(.rodata.name)
+    .rodata.name                             0x0800f435   Section       36  mailbox_sample.o(.rodata.name)
+    .rodata.name                             0x0800f459   Section       36  memp_sample.o(.rodata.name)
+    .rodata.name                             0x0800f47d   Section       30  msgq_sample.o(.rodata.name)
+    .rodata.name                             0x0800f49b   Section       32  mutex_sample.o(.rodata.name)
+    .rodata.name                             0x0800f4bb   Section       41  priority_inversion.o(.rodata.name)
+    .rodata.name                             0x0800f4e4   Section       49  producer_consumer.o(.rodata.name)
+    .rodata.name                             0x0800f515   Section       43  scheduler_hook.o(.rodata.name)
+    .rodata.name                             0x0800f540   Section       40  semaphore_sample.o(.rodata.name)
+    .rodata.name                             0x0800f568   Section       34  signal_sample.o(.rodata.name)
+    .rodata.name                             0x0800f58a   Section       34  thread_sample.o(.rodata.name)
+    .rodata.name                             0x0800f5ac   Section       32  timer_sample.o(.rodata.name)
+    .rodata.name                             0x0800f5cc   Section       40  timeslice_sample.o(.rodata.name)
+    .rti_fn.0                                0x0800f5f4   Section        4  components.o(.rti_fn.0)
+    __tagsym$$used                           0x0800f5f4   Number         0  components.o(.rti_fn.0)
+    .rti_fn.0.end                            0x0800f5f8   Section        4  components.o(.rti_fn.0.end)
+    __tagsym$$used                           0x0800f5f8   Number         0  components.o(.rti_fn.0.end)
+    .rti_fn.1                                0x0800f5fc   Section        4  drv_gpio.o(.rti_fn.1)
+    __tagsym$$used                           0x0800f5fc   Number         0  drv_gpio.o(.rti_fn.1)
+    .rti_fn.1                                0x0800f600   Section        4  drv_usart.o(.rti_fn.1)
+    __tagsym$$used                           0x0800f600   Number         0  drv_usart.o(.rti_fn.1)
+    .rti_fn.1.end                            0x0800f604   Section        4  components.o(.rti_fn.1.end)
+    __tagsym$$used                           0x0800f604   Number         0  components.o(.rti_fn.1.end)
+    .rti_fn.6                                0x0800f608   Section        4  shell.o(.rti_fn.6)
+    __tagsym$$used                           0x0800f608   Number         0  shell.o(.rti_fn.6)
+    .rti_fn.6.end                            0x0800f60c   Section        4  components.o(.rti_fn.6.end)
+    __tagsym$$used                           0x0800f60c   Number         0  components.o(.rti_fn.6.end)
+    FSymTab                                  0x0800f610   Section       12  main.o(FSymTab)
+    FSymTab                                  0x0800f61c   Section       12  mem.o(FSymTab)
+    FSymTab                                  0x0800f628   Section       36  pin.o(FSymTab)
+    FSymTab                                  0x0800f64c   Section      288  cmd.o(FSymTab)
+    FSymTab                                  0x0800f76c   Section       12  msh.o(FSymTab)
+    FSymTab                                  0x0800f778   Section       36  msh_cmd.o(FSymTab)
+    FSymTab                                  0x0800f79c   Section       12  dynmem_sample.o(FSymTab)
+    FSymTab                                  0x0800f7a8   Section       12  event_sample.o(FSymTab)
+    FSymTab                                  0x0800f7b4   Section       12  idlehook_sample.o(FSymTab)
+    FSymTab                                  0x0800f7c0   Section       12  interrupt_sample.o(FSymTab)
+    FSymTab                                  0x0800f7cc   Section       12  mailbox_sample.o(FSymTab)
+    FSymTab                                  0x0800f7d8   Section       12  memp_sample.o(FSymTab)
+    FSymTab                                  0x0800f7e4   Section       12  msgq_sample.o(FSymTab)
+    FSymTab                                  0x0800f7f0   Section       12  mutex_sample.o(FSymTab)
+    FSymTab                                  0x0800f7fc   Section       12  priority_inversion.o(FSymTab)
+    FSymTab                                  0x0800f808   Section       12  producer_consumer.o(FSymTab)
+    FSymTab                                  0x0800f814   Section       12  scheduler_hook.o(FSymTab)
+    FSymTab                                  0x0800f820   Section       12  semaphore_sample.o(FSymTab)
+    FSymTab                                  0x0800f82c   Section       12  signal_sample.o(FSymTab)
+    FSymTab                                  0x0800f838   Section       12  thread_sample.o(FSymTab)
+    FSymTab                                  0x0800f844   Section       12  timer_sample.o(FSymTab)
+    FSymTab                                  0x0800f850   Section       12  timeslice_sample.o(FSymTab)
     .data                                    0x20000000   Section      192  drv_gpio.o(.data)
     .data                                    0x200000c0   Section       68  drv_usart.o(.data)
     .data                                    0x20000104   Section        4  system_stm32f1xx.o(.data)
@@ -1294,10 +1295,12 @@ Image Symbol Table
     thread1                                  0x20004a74   Data         148  semaphore_sample.o(.bss)
     thread2_stack                            0x20004b08   Data        1024  semaphore_sample.o(.bss)
     thread2                                  0x20004f08   Data         148  semaphore_sample.o(.bss)
-    .bss                                     0x20004f9c   Section     1172  thread_sample.o(.bss)
+    .bss                                     0x20004f9c   Section     2344  thread_sample.o(.bss)
     thread2_stack                            0x20004f9c   Data        1024  thread_sample.o(.bss)
     thread2                                  0x2000539c   Data         148  thread_sample.o(.bss)
-    STACK                                    0x20005430   Section     1024  startup_stm32f103xe.o(STACK)
+    thread3_stack                            0x20005430   Data        1024  thread_sample.o(.bss)
+    thread3                                  0x20005830   Data         148  thread_sample.o(.bss)
+    STACK                                    0x200058c8   Section     1024  startup_stm32f103xe.o(STACK)
 
     Global Symbols
 
@@ -1763,192 +1766,192 @@ Image Symbol Table
     semaphore_sample                         0x0800d15f   Thumb Code   118  semaphore_sample.o(.text)
     thread1_signal_handler                   0x0800d2dd   Thumb Code    14  signal_sample.o(.text)
     signal_sample                            0x0800d319   Thumb Code    64  signal_sample.o(.text)
-    thread_sample                            0x0800d3d1   Thumb Code    84  thread_sample.o(.text)
-    timer_sample                             0x0800d4bb   Thumb Code    74  timer_sample.o(.text)
-    timeslice_sample                         0x0800d5b1   Thumb Code    70  timeslice_sample.o(.text)
-    __aeabi_memcpy                           0x0800d639   Thumb Code    36  memcpya.o(.text)
-    __aeabi_memcpy4                          0x0800d639   Thumb Code     0  memcpya.o(.text)
-    __aeabi_memcpy8                          0x0800d639   Thumb Code     0  memcpya.o(.text)
-    __aeabi_memset                           0x0800d65d   Thumb Code    14  memseta.o(.text)
-    __aeabi_memset4                          0x0800d65d   Thumb Code     0  memseta.o(.text)
-    __aeabi_memset8                          0x0800d65d   Thumb Code     0  memseta.o(.text)
-    __aeabi_memclr                           0x0800d66b   Thumb Code     4  memseta.o(.text)
-    __aeabi_memclr4                          0x0800d66b   Thumb Code     0  memseta.o(.text)
-    __aeabi_memclr8                          0x0800d66b   Thumb Code     0  memseta.o(.text)
-    _memset$wrapper                          0x0800d66f   Thumb Code    18  memseta.o(.text)
-    strcat                                   0x0800d681   Thumb Code    24  strcat.o(.text)
-    strlen                                   0x0800d699   Thumb Code    14  strlen.o(.text)
-    memcmp                                   0x0800d6a7   Thumb Code    26  memcmp.o(.text)
-    strcpy                                   0x0800d6c1   Thumb Code    18  strcpy.o(.text)
-    strncmp                                  0x0800d6d3   Thumb Code    30  strncmp.o(.text)
-    __scatterload                            0x0800d6f1   Thumb Code    28  init.o(.text)
-    __scatterload_rt2                        0x0800d6f1   Thumb Code     0  init.o(.text)
-    __decompress                             0x0800d715   Thumb Code     0  __dczerorl2.o(.text)
-    __decompress1                            0x0800d715   Thumb Code    86  __dczerorl2.o(.text)
-    __scatterload_copy                       0x0800d76b   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x0800d779   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x0800d77b   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    AHBPrescTable                            0x0800e173   Data          16  system_stm32f1xx.o(.constdata)
-    APBPrescTable                            0x0800e183   Data           8  system_stm32f1xx.o(.constdata)
-    __lowest_bit_bitmap                      0x0800e475   Data         256  kservice.o(.constdata)
-    __fsym___cmd_led_name                    0x0800ee79   Data          10  main.o(.rodata.name)
-    __fsym___cmd_led_desc                    0x0800ee83   Data          27  main.o(.rodata.name)
-    __fsym_list_mem_name                     0x0800ee9e   Data           9  mem.o(.rodata.name)
-    __fsym_list_mem_desc                     0x0800eea7   Data          30  mem.o(.rodata.name)
-    __fsym_pinMode_name                      0x0800eec5   Data           8  pin.o(.rodata.name)
-    __fsym_pinMode_desc                      0x0800eecd   Data          22  pin.o(.rodata.name)
-    __fsym_pinWrite_name                     0x0800eee3   Data           9  pin.o(.rodata.name)
-    __fsym_pinWrite_desc                     0x0800eeec   Data          28  pin.o(.rodata.name)
-    __fsym_pinRead_name                      0x0800ef08   Data           8  pin.o(.rodata.name)
-    __fsym_pinRead_desc                      0x0800ef10   Data          30  pin.o(.rodata.name)
-    __fsym_hello_name                        0x0800ef2e   Data           6  cmd.o(.rodata.name)
-    __fsym_hello_desc                        0x0800ef34   Data          16  cmd.o(.rodata.name)
-    __fsym_version_name                      0x0800ef44   Data           8  cmd.o(.rodata.name)
-    __fsym_version_desc                      0x0800ef4c   Data          35  cmd.o(.rodata.name)
-    __fsym___cmd_version_name                0x0800ef6f   Data          14  cmd.o(.rodata.name)
-    __fsym___cmd_version_desc                0x0800ef7d   Data          35  cmd.o(.rodata.name)
-    __fsym_list_thread_name                  0x0800efa0   Data          12  cmd.o(.rodata.name)
-    __fsym_list_thread_desc                  0x0800efac   Data          12  cmd.o(.rodata.name)
-    __fsym___cmd_list_thread_name            0x0800efb8   Data          18  cmd.o(.rodata.name)
-    __fsym___cmd_list_thread_desc            0x0800efca   Data          12  cmd.o(.rodata.name)
-    __fsym_list_sem_name                     0x0800efd6   Data           9  cmd.o(.rodata.name)
-    __fsym_list_sem_desc                     0x0800efdf   Data          25  cmd.o(.rodata.name)
-    __fsym___cmd_list_sem_name               0x0800eff8   Data          15  cmd.o(.rodata.name)
-    __fsym___cmd_list_sem_desc               0x0800f007   Data          25  cmd.o(.rodata.name)
-    __fsym_list_event_name                   0x0800f020   Data          11  cmd.o(.rodata.name)
-    __fsym_list_event_desc                   0x0800f02b   Data          21  cmd.o(.rodata.name)
-    __fsym___cmd_list_event_name             0x0800f040   Data          17  cmd.o(.rodata.name)
-    __fsym___cmd_list_event_desc             0x0800f051   Data          21  cmd.o(.rodata.name)
-    __fsym_list_mutex_name                   0x0800f066   Data          11  cmd.o(.rodata.name)
-    __fsym_list_mutex_desc                   0x0800f071   Data          21  cmd.o(.rodata.name)
-    __fsym___cmd_list_mutex_name             0x0800f086   Data          17  cmd.o(.rodata.name)
-    __fsym___cmd_list_mutex_desc             0x0800f097   Data          21  cmd.o(.rodata.name)
-    __fsym_list_mailbox_name                 0x0800f0ac   Data          13  cmd.o(.rodata.name)
-    __fsym_list_mailbox_desc                 0x0800f0b9   Data          24  cmd.o(.rodata.name)
-    __fsym___cmd_list_mailbox_name           0x0800f0d1   Data          19  cmd.o(.rodata.name)
-    __fsym___cmd_list_mailbox_desc           0x0800f0e4   Data          24  cmd.o(.rodata.name)
-    __fsym_list_msgqueue_name                0x0800f0fc   Data          14  cmd.o(.rodata.name)
-    __fsym_list_msgqueue_desc                0x0800f10a   Data          29  cmd.o(.rodata.name)
-    __fsym___cmd_list_msgqueue_name          0x0800f127   Data          20  cmd.o(.rodata.name)
-    __fsym___cmd_list_msgqueue_desc          0x0800f13b   Data          29  cmd.o(.rodata.name)
-    __fsym_list_memheap_name                 0x0800f158   Data          13  cmd.o(.rodata.name)
-    __fsym_list_memheap_desc                 0x0800f165   Data          27  cmd.o(.rodata.name)
-    __fsym___cmd_list_memheap_name           0x0800f180   Data          19  cmd.o(.rodata.name)
-    __fsym___cmd_list_memheap_desc           0x0800f193   Data          27  cmd.o(.rodata.name)
-    __fsym_list_mempool_name                 0x0800f1ae   Data          13  cmd.o(.rodata.name)
-    __fsym_list_mempool_desc                 0x0800f1bb   Data          27  cmd.o(.rodata.name)
-    __fsym___cmd_list_mempool_name           0x0800f1d6   Data          19  cmd.o(.rodata.name)
-    __fsym___cmd_list_mempool_desc           0x0800f1e9   Data          27  cmd.o(.rodata.name)
-    __fsym_list_timer_name                   0x0800f204   Data          11  cmd.o(.rodata.name)
-    __fsym_list_timer_desc                   0x0800f20f   Data          21  cmd.o(.rodata.name)
-    __fsym___cmd_list_timer_name             0x0800f224   Data          17  cmd.o(.rodata.name)
-    __fsym___cmd_list_timer_desc             0x0800f235   Data          21  cmd.o(.rodata.name)
-    __fsym_list_device_name                  0x0800f24a   Data          12  cmd.o(.rodata.name)
-    __fsym_list_device_desc                  0x0800f256   Data          22  cmd.o(.rodata.name)
-    __fsym___cmd_list_device_name            0x0800f26c   Data          18  cmd.o(.rodata.name)
-    __fsym___cmd_list_device_desc            0x0800f27e   Data          22  cmd.o(.rodata.name)
-    __fsym_list_name                         0x0800f294   Data           5  cmd.o(.rodata.name)
-    __fsym_list_desc                         0x0800f299   Data          26  cmd.o(.rodata.name)
-    __fsym___cmd_help_name                   0x0800f2b3   Data          11  msh.o(.rodata.name)
-    __fsym___cmd_help_desc                   0x0800f2be   Data          22  msh.o(.rodata.name)
-    __fsym___cmd_ps_name                     0x0800f2d4   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_ps_desc                     0x0800f2dd   Data          28  msh_cmd.o(.rodata.name)
-    __fsym___cmd_time_name                   0x0800f2f9   Data          11  msh_cmd.o(.rodata.name)
-    __fsym___cmd_time_desc                   0x0800f304   Data          27  msh_cmd.o(.rodata.name)
-    __fsym___cmd_free_name                   0x0800f31f   Data          11  msh_cmd.o(.rodata.name)
-    __fsym___cmd_free_desc                   0x0800f32a   Data          37  msh_cmd.o(.rodata.name)
-    __fsym___cmd_dynmem_sample_name          0x0800f34f   Data          20  dynmem_sample.o(.rodata.name)
-    __fsym___cmd_dynmem_sample_desc          0x0800f363   Data          14  dynmem_sample.o(.rodata.name)
-    __fsym___cmd_event_sample_name           0x0800f371   Data          19  event_sample.o(.rodata.name)
-    __fsym___cmd_event_sample_desc           0x0800f384   Data          13  event_sample.o(.rodata.name)
-    __fsym___cmd_idle_hook_sample_name       0x0800f391   Data          23  idlehook_sample.o(.rodata.name)
-    __fsym___cmd_idle_hook_sample_desc       0x0800f3a8   Data          17  idlehook_sample.o(.rodata.name)
-    __fsym___cmd_interrupt_sample_name       0x0800f3b9   Data          23  interrupt_sample.o(.rodata.name)
-    __fsym___cmd_interrupt_sample_desc       0x0800f3d0   Data          17  interrupt_sample.o(.rodata.name)
-    __fsym___cmd_mailbox_sample_name         0x0800f3e1   Data          21  mailbox_sample.o(.rodata.name)
-    __fsym___cmd_mailbox_sample_desc         0x0800f3f6   Data          15  mailbox_sample.o(.rodata.name)
-    __fsym___cmd_mempool_sample_name         0x0800f405   Data          21  memp_sample.o(.rodata.name)
-    __fsym___cmd_mempool_sample_desc         0x0800f41a   Data          15  memp_sample.o(.rodata.name)
-    __fsym___cmd_msgq_sample_name            0x0800f429   Data          18  msgq_sample.o(.rodata.name)
-    __fsym___cmd_msgq_sample_desc            0x0800f43b   Data          12  msgq_sample.o(.rodata.name)
-    __fsym___cmd_mutex_sample_name           0x0800f447   Data          19  mutex_sample.o(.rodata.name)
-    __fsym___cmd_mutex_sample_desc           0x0800f45a   Data          13  mutex_sample.o(.rodata.name)
-    __fsym___cmd_pri_inversion_name          0x0800f467   Data          20  priority_inversion.o(.rodata.name)
-    __fsym___cmd_pri_inversion_desc          0x0800f47b   Data          21  priority_inversion.o(.rodata.name)
-    __fsym___cmd_producer_consumer_name      0x0800f490   Data          24  producer_consumer.o(.rodata.name)
-    __fsym___cmd_producer_consumer_desc      0x0800f4a8   Data          25  producer_consumer.o(.rodata.name)
-    __fsym___cmd_scheduler_hook_name         0x0800f4c1   Data          21  scheduler_hook.o(.rodata.name)
-    __fsym___cmd_scheduler_hook_desc         0x0800f4d6   Data          22  scheduler_hook.o(.rodata.name)
-    __fsym___cmd_semaphore_sample_name       0x0800f4ec   Data          23  semaphore_sample.o(.rodata.name)
-    __fsym___cmd_semaphore_sample_desc       0x0800f503   Data          17  semaphore_sample.o(.rodata.name)
-    __fsym___cmd_signal_sample_name          0x0800f514   Data          20  signal_sample.o(.rodata.name)
-    __fsym___cmd_signal_sample_desc          0x0800f528   Data          14  signal_sample.o(.rodata.name)
-    __fsym___cmd_thread_sample_name          0x0800f536   Data          20  thread_sample.o(.rodata.name)
-    __fsym___cmd_thread_sample_desc          0x0800f54a   Data          14  thread_sample.o(.rodata.name)
-    __fsym___cmd_timer_sample_name           0x0800f558   Data          19  timer_sample.o(.rodata.name)
-    __fsym___cmd_timer_sample_desc           0x0800f56b   Data          13  timer_sample.o(.rodata.name)
-    __fsym___cmd_timeslice_sample_name       0x0800f578   Data          23  timeslice_sample.o(.rodata.name)
-    __fsym___cmd_timeslice_sample_desc       0x0800f58f   Data          17  timeslice_sample.o(.rodata.name)
-    __rt_init_rti_start                      0x0800f5a0   Data           4  components.o(.rti_fn.0)
-    __rt_init_rti_board_start                0x0800f5a4   Data           4  components.o(.rti_fn.0.end)
-    __rt_init_rt_hw_pin_init                 0x0800f5a8   Data           4  drv_gpio.o(.rti_fn.1)
-    __rt_init_rt_hw_usart_init               0x0800f5ac   Data           4  drv_usart.o(.rti_fn.1)
-    __rt_init_rti_board_end                  0x0800f5b0   Data           4  components.o(.rti_fn.1.end)
-    __rt_init_finsh_system_init              0x0800f5b4   Data           4  shell.o(.rti_fn.6)
-    __rt_init_rti_end                        0x0800f5b8   Data           4  components.o(.rti_fn.6.end)
-    FSymTab$$Base                            0x0800f5bc   Number         0  main.o(FSymTab)
-    __fsym___cmd_led                         0x0800f5bc   Data          12  main.o(FSymTab)
-    __fsym_list_mem                          0x0800f5c8   Data          12  mem.o(FSymTab)
-    __fsym_pinMode                           0x0800f5d4   Data          12  pin.o(FSymTab)
-    __fsym_pinWrite                          0x0800f5e0   Data          12  pin.o(FSymTab)
-    __fsym_pinRead                           0x0800f5ec   Data          12  pin.o(FSymTab)
-    __fsym_hello                             0x0800f5f8   Data          12  cmd.o(FSymTab)
-    __fsym_version                           0x0800f604   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_version                     0x0800f610   Data          12  cmd.o(FSymTab)
-    __fsym_list_thread                       0x0800f61c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_thread                 0x0800f628   Data          12  cmd.o(FSymTab)
-    __fsym_list_sem                          0x0800f634   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_sem                    0x0800f640   Data          12  cmd.o(FSymTab)
-    __fsym_list_event                        0x0800f64c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_event                  0x0800f658   Data          12  cmd.o(FSymTab)
-    __fsym_list_mutex                        0x0800f664   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_mutex                  0x0800f670   Data          12  cmd.o(FSymTab)
-    __fsym_list_mailbox                      0x0800f67c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_mailbox                0x0800f688   Data          12  cmd.o(FSymTab)
-    __fsym_list_msgqueue                     0x0800f694   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_msgqueue               0x0800f6a0   Data          12  cmd.o(FSymTab)
-    __fsym_list_memheap                      0x0800f6ac   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_memheap                0x0800f6b8   Data          12  cmd.o(FSymTab)
-    __fsym_list_mempool                      0x0800f6c4   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_mempool                0x0800f6d0   Data          12  cmd.o(FSymTab)
-    __fsym_list_timer                        0x0800f6dc   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_timer                  0x0800f6e8   Data          12  cmd.o(FSymTab)
-    __fsym_list_device                       0x0800f6f4   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_device                 0x0800f700   Data          12  cmd.o(FSymTab)
-    __fsym_list                              0x0800f70c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_help                        0x0800f718   Data          12  msh.o(FSymTab)
-    __fsym___cmd_ps                          0x0800f724   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_time                        0x0800f730   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_free                        0x0800f73c   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_dynmem_sample               0x0800f748   Data          12  dynmem_sample.o(FSymTab)
-    __fsym___cmd_event_sample                0x0800f754   Data          12  event_sample.o(FSymTab)
-    __fsym___cmd_idle_hook_sample            0x0800f760   Data          12  idlehook_sample.o(FSymTab)
-    __fsym___cmd_interrupt_sample            0x0800f76c   Data          12  interrupt_sample.o(FSymTab)
-    __fsym___cmd_mailbox_sample              0x0800f778   Data          12  mailbox_sample.o(FSymTab)
-    __fsym___cmd_mempool_sample              0x0800f784   Data          12  memp_sample.o(FSymTab)
-    __fsym___cmd_msgq_sample                 0x0800f790   Data          12  msgq_sample.o(FSymTab)
-    __fsym___cmd_mutex_sample                0x0800f79c   Data          12  mutex_sample.o(FSymTab)
-    __fsym___cmd_pri_inversion               0x0800f7a8   Data          12  priority_inversion.o(FSymTab)
-    __fsym___cmd_producer_consumer           0x0800f7b4   Data          12  producer_consumer.o(FSymTab)
-    __fsym___cmd_scheduler_hook              0x0800f7c0   Data          12  scheduler_hook.o(FSymTab)
-    __fsym___cmd_semaphore_sample            0x0800f7cc   Data          12  semaphore_sample.o(FSymTab)
-    __fsym___cmd_signal_sample               0x0800f7d8   Data          12  signal_sample.o(FSymTab)
-    __fsym___cmd_thread_sample               0x0800f7e4   Data          12  thread_sample.o(FSymTab)
-    __fsym___cmd_timer_sample                0x0800f7f0   Data          12  timer_sample.o(FSymTab)
-    __fsym___cmd_timeslice_sample            0x0800f7fc   Data          12  timeslice_sample.o(FSymTab)
-    FSymTab$$Limit                           0x0800f808   Number         0  timeslice_sample.o(FSymTab)
-    Region$$Table$$Base                      0x0800f808   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0800f828   Number         0  anon$$obj.o(Region$$Table)
+    thread_sample                            0x0800d3dd   Thumb Code   120  thread_sample.o(.text)
+    timer_sample                             0x0800d50f   Thumb Code    74  timer_sample.o(.text)
+    timeslice_sample                         0x0800d605   Thumb Code    70  timeslice_sample.o(.text)
+    __aeabi_memcpy                           0x0800d68d   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x0800d68d   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x0800d68d   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memset                           0x0800d6b1   Thumb Code    14  memseta.o(.text)
+    __aeabi_memset4                          0x0800d6b1   Thumb Code     0  memseta.o(.text)
+    __aeabi_memset8                          0x0800d6b1   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr                           0x0800d6bf   Thumb Code     4  memseta.o(.text)
+    __aeabi_memclr4                          0x0800d6bf   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr8                          0x0800d6bf   Thumb Code     0  memseta.o(.text)
+    _memset$wrapper                          0x0800d6c3   Thumb Code    18  memseta.o(.text)
+    strcat                                   0x0800d6d5   Thumb Code    24  strcat.o(.text)
+    strlen                                   0x0800d6ed   Thumb Code    14  strlen.o(.text)
+    memcmp                                   0x0800d6fb   Thumb Code    26  memcmp.o(.text)
+    strcpy                                   0x0800d715   Thumb Code    18  strcpy.o(.text)
+    strncmp                                  0x0800d727   Thumb Code    30  strncmp.o(.text)
+    __scatterload                            0x0800d745   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x0800d745   Thumb Code     0  init.o(.text)
+    __decompress                             0x0800d769   Thumb Code     0  __dczerorl2.o(.text)
+    __decompress1                            0x0800d769   Thumb Code    86  __dczerorl2.o(.text)
+    __scatterload_copy                       0x0800d7bf   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x0800d7cd   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x0800d7cf   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    AHBPrescTable                            0x0800e1c7   Data          16  system_stm32f1xx.o(.constdata)
+    APBPrescTable                            0x0800e1d7   Data           8  system_stm32f1xx.o(.constdata)
+    __lowest_bit_bitmap                      0x0800e4c9   Data         256  kservice.o(.constdata)
+    __fsym___cmd_led_name                    0x0800eecd   Data          10  main.o(.rodata.name)
+    __fsym___cmd_led_desc                    0x0800eed7   Data          27  main.o(.rodata.name)
+    __fsym_list_mem_name                     0x0800eef2   Data           9  mem.o(.rodata.name)
+    __fsym_list_mem_desc                     0x0800eefb   Data          30  mem.o(.rodata.name)
+    __fsym_pinMode_name                      0x0800ef19   Data           8  pin.o(.rodata.name)
+    __fsym_pinMode_desc                      0x0800ef21   Data          22  pin.o(.rodata.name)
+    __fsym_pinWrite_name                     0x0800ef37   Data           9  pin.o(.rodata.name)
+    __fsym_pinWrite_desc                     0x0800ef40   Data          28  pin.o(.rodata.name)
+    __fsym_pinRead_name                      0x0800ef5c   Data           8  pin.o(.rodata.name)
+    __fsym_pinRead_desc                      0x0800ef64   Data          30  pin.o(.rodata.name)
+    __fsym_hello_name                        0x0800ef82   Data           6  cmd.o(.rodata.name)
+    __fsym_hello_desc                        0x0800ef88   Data          16  cmd.o(.rodata.name)
+    __fsym_version_name                      0x0800ef98   Data           8  cmd.o(.rodata.name)
+    __fsym_version_desc                      0x0800efa0   Data          35  cmd.o(.rodata.name)
+    __fsym___cmd_version_name                0x0800efc3   Data          14  cmd.o(.rodata.name)
+    __fsym___cmd_version_desc                0x0800efd1   Data          35  cmd.o(.rodata.name)
+    __fsym_list_thread_name                  0x0800eff4   Data          12  cmd.o(.rodata.name)
+    __fsym_list_thread_desc                  0x0800f000   Data          12  cmd.o(.rodata.name)
+    __fsym___cmd_list_thread_name            0x0800f00c   Data          18  cmd.o(.rodata.name)
+    __fsym___cmd_list_thread_desc            0x0800f01e   Data          12  cmd.o(.rodata.name)
+    __fsym_list_sem_name                     0x0800f02a   Data           9  cmd.o(.rodata.name)
+    __fsym_list_sem_desc                     0x0800f033   Data          25  cmd.o(.rodata.name)
+    __fsym___cmd_list_sem_name               0x0800f04c   Data          15  cmd.o(.rodata.name)
+    __fsym___cmd_list_sem_desc               0x0800f05b   Data          25  cmd.o(.rodata.name)
+    __fsym_list_event_name                   0x0800f074   Data          11  cmd.o(.rodata.name)
+    __fsym_list_event_desc                   0x0800f07f   Data          21  cmd.o(.rodata.name)
+    __fsym___cmd_list_event_name             0x0800f094   Data          17  cmd.o(.rodata.name)
+    __fsym___cmd_list_event_desc             0x0800f0a5   Data          21  cmd.o(.rodata.name)
+    __fsym_list_mutex_name                   0x0800f0ba   Data          11  cmd.o(.rodata.name)
+    __fsym_list_mutex_desc                   0x0800f0c5   Data          21  cmd.o(.rodata.name)
+    __fsym___cmd_list_mutex_name             0x0800f0da   Data          17  cmd.o(.rodata.name)
+    __fsym___cmd_list_mutex_desc             0x0800f0eb   Data          21  cmd.o(.rodata.name)
+    __fsym_list_mailbox_name                 0x0800f100   Data          13  cmd.o(.rodata.name)
+    __fsym_list_mailbox_desc                 0x0800f10d   Data          24  cmd.o(.rodata.name)
+    __fsym___cmd_list_mailbox_name           0x0800f125   Data          19  cmd.o(.rodata.name)
+    __fsym___cmd_list_mailbox_desc           0x0800f138   Data          24  cmd.o(.rodata.name)
+    __fsym_list_msgqueue_name                0x0800f150   Data          14  cmd.o(.rodata.name)
+    __fsym_list_msgqueue_desc                0x0800f15e   Data          29  cmd.o(.rodata.name)
+    __fsym___cmd_list_msgqueue_name          0x0800f17b   Data          20  cmd.o(.rodata.name)
+    __fsym___cmd_list_msgqueue_desc          0x0800f18f   Data          29  cmd.o(.rodata.name)
+    __fsym_list_memheap_name                 0x0800f1ac   Data          13  cmd.o(.rodata.name)
+    __fsym_list_memheap_desc                 0x0800f1b9   Data          27  cmd.o(.rodata.name)
+    __fsym___cmd_list_memheap_name           0x0800f1d4   Data          19  cmd.o(.rodata.name)
+    __fsym___cmd_list_memheap_desc           0x0800f1e7   Data          27  cmd.o(.rodata.name)
+    __fsym_list_mempool_name                 0x0800f202   Data          13  cmd.o(.rodata.name)
+    __fsym_list_mempool_desc                 0x0800f20f   Data          27  cmd.o(.rodata.name)
+    __fsym___cmd_list_mempool_name           0x0800f22a   Data          19  cmd.o(.rodata.name)
+    __fsym___cmd_list_mempool_desc           0x0800f23d   Data          27  cmd.o(.rodata.name)
+    __fsym_list_timer_name                   0x0800f258   Data          11  cmd.o(.rodata.name)
+    __fsym_list_timer_desc                   0x0800f263   Data          21  cmd.o(.rodata.name)
+    __fsym___cmd_list_timer_name             0x0800f278   Data          17  cmd.o(.rodata.name)
+    __fsym___cmd_list_timer_desc             0x0800f289   Data          21  cmd.o(.rodata.name)
+    __fsym_list_device_name                  0x0800f29e   Data          12  cmd.o(.rodata.name)
+    __fsym_list_device_desc                  0x0800f2aa   Data          22  cmd.o(.rodata.name)
+    __fsym___cmd_list_device_name            0x0800f2c0   Data          18  cmd.o(.rodata.name)
+    __fsym___cmd_list_device_desc            0x0800f2d2   Data          22  cmd.o(.rodata.name)
+    __fsym_list_name                         0x0800f2e8   Data           5  cmd.o(.rodata.name)
+    __fsym_list_desc                         0x0800f2ed   Data          26  cmd.o(.rodata.name)
+    __fsym___cmd_help_name                   0x0800f307   Data          11  msh.o(.rodata.name)
+    __fsym___cmd_help_desc                   0x0800f312   Data          22  msh.o(.rodata.name)
+    __fsym___cmd_ps_name                     0x0800f328   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_ps_desc                     0x0800f331   Data          28  msh_cmd.o(.rodata.name)
+    __fsym___cmd_time_name                   0x0800f34d   Data          11  msh_cmd.o(.rodata.name)
+    __fsym___cmd_time_desc                   0x0800f358   Data          27  msh_cmd.o(.rodata.name)
+    __fsym___cmd_free_name                   0x0800f373   Data          11  msh_cmd.o(.rodata.name)
+    __fsym___cmd_free_desc                   0x0800f37e   Data          37  msh_cmd.o(.rodata.name)
+    __fsym___cmd_dynmem_sample_name          0x0800f3a3   Data          20  dynmem_sample.o(.rodata.name)
+    __fsym___cmd_dynmem_sample_desc          0x0800f3b7   Data          14  dynmem_sample.o(.rodata.name)
+    __fsym___cmd_event_sample_name           0x0800f3c5   Data          19  event_sample.o(.rodata.name)
+    __fsym___cmd_event_sample_desc           0x0800f3d8   Data          13  event_sample.o(.rodata.name)
+    __fsym___cmd_idle_hook_sample_name       0x0800f3e5   Data          23  idlehook_sample.o(.rodata.name)
+    __fsym___cmd_idle_hook_sample_desc       0x0800f3fc   Data          17  idlehook_sample.o(.rodata.name)
+    __fsym___cmd_interrupt_sample_name       0x0800f40d   Data          23  interrupt_sample.o(.rodata.name)
+    __fsym___cmd_interrupt_sample_desc       0x0800f424   Data          17  interrupt_sample.o(.rodata.name)
+    __fsym___cmd_mailbox_sample_name         0x0800f435   Data          21  mailbox_sample.o(.rodata.name)
+    __fsym___cmd_mailbox_sample_desc         0x0800f44a   Data          15  mailbox_sample.o(.rodata.name)
+    __fsym___cmd_mempool_sample_name         0x0800f459   Data          21  memp_sample.o(.rodata.name)
+    __fsym___cmd_mempool_sample_desc         0x0800f46e   Data          15  memp_sample.o(.rodata.name)
+    __fsym___cmd_msgq_sample_name            0x0800f47d   Data          18  msgq_sample.o(.rodata.name)
+    __fsym___cmd_msgq_sample_desc            0x0800f48f   Data          12  msgq_sample.o(.rodata.name)
+    __fsym___cmd_mutex_sample_name           0x0800f49b   Data          19  mutex_sample.o(.rodata.name)
+    __fsym___cmd_mutex_sample_desc           0x0800f4ae   Data          13  mutex_sample.o(.rodata.name)
+    __fsym___cmd_pri_inversion_name          0x0800f4bb   Data          20  priority_inversion.o(.rodata.name)
+    __fsym___cmd_pri_inversion_desc          0x0800f4cf   Data          21  priority_inversion.o(.rodata.name)
+    __fsym___cmd_producer_consumer_name      0x0800f4e4   Data          24  producer_consumer.o(.rodata.name)
+    __fsym___cmd_producer_consumer_desc      0x0800f4fc   Data          25  producer_consumer.o(.rodata.name)
+    __fsym___cmd_scheduler_hook_name         0x0800f515   Data          21  scheduler_hook.o(.rodata.name)
+    __fsym___cmd_scheduler_hook_desc         0x0800f52a   Data          22  scheduler_hook.o(.rodata.name)
+    __fsym___cmd_semaphore_sample_name       0x0800f540   Data          23  semaphore_sample.o(.rodata.name)
+    __fsym___cmd_semaphore_sample_desc       0x0800f557   Data          17  semaphore_sample.o(.rodata.name)
+    __fsym___cmd_signal_sample_name          0x0800f568   Data          20  signal_sample.o(.rodata.name)
+    __fsym___cmd_signal_sample_desc          0x0800f57c   Data          14  signal_sample.o(.rodata.name)
+    __fsym___cmd_thread_sample_name          0x0800f58a   Data          20  thread_sample.o(.rodata.name)
+    __fsym___cmd_thread_sample_desc          0x0800f59e   Data          14  thread_sample.o(.rodata.name)
+    __fsym___cmd_timer_sample_name           0x0800f5ac   Data          19  timer_sample.o(.rodata.name)
+    __fsym___cmd_timer_sample_desc           0x0800f5bf   Data          13  timer_sample.o(.rodata.name)
+    __fsym___cmd_timeslice_sample_name       0x0800f5cc   Data          23  timeslice_sample.o(.rodata.name)
+    __fsym___cmd_timeslice_sample_desc       0x0800f5e3   Data          17  timeslice_sample.o(.rodata.name)
+    __rt_init_rti_start                      0x0800f5f4   Data           4  components.o(.rti_fn.0)
+    __rt_init_rti_board_start                0x0800f5f8   Data           4  components.o(.rti_fn.0.end)
+    __rt_init_rt_hw_pin_init                 0x0800f5fc   Data           4  drv_gpio.o(.rti_fn.1)
+    __rt_init_rt_hw_usart_init               0x0800f600   Data           4  drv_usart.o(.rti_fn.1)
+    __rt_init_rti_board_end                  0x0800f604   Data           4  components.o(.rti_fn.1.end)
+    __rt_init_finsh_system_init              0x0800f608   Data           4  shell.o(.rti_fn.6)
+    __rt_init_rti_end                        0x0800f60c   Data           4  components.o(.rti_fn.6.end)
+    FSymTab$$Base                            0x0800f610   Number         0  main.o(FSymTab)
+    __fsym___cmd_led                         0x0800f610   Data          12  main.o(FSymTab)
+    __fsym_list_mem                          0x0800f61c   Data          12  mem.o(FSymTab)
+    __fsym_pinMode                           0x0800f628   Data          12  pin.o(FSymTab)
+    __fsym_pinWrite                          0x0800f634   Data          12  pin.o(FSymTab)
+    __fsym_pinRead                           0x0800f640   Data          12  pin.o(FSymTab)
+    __fsym_hello                             0x0800f64c   Data          12  cmd.o(FSymTab)
+    __fsym_version                           0x0800f658   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_version                     0x0800f664   Data          12  cmd.o(FSymTab)
+    __fsym_list_thread                       0x0800f670   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_thread                 0x0800f67c   Data          12  cmd.o(FSymTab)
+    __fsym_list_sem                          0x0800f688   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_sem                    0x0800f694   Data          12  cmd.o(FSymTab)
+    __fsym_list_event                        0x0800f6a0   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_event                  0x0800f6ac   Data          12  cmd.o(FSymTab)
+    __fsym_list_mutex                        0x0800f6b8   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_mutex                  0x0800f6c4   Data          12  cmd.o(FSymTab)
+    __fsym_list_mailbox                      0x0800f6d0   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_mailbox                0x0800f6dc   Data          12  cmd.o(FSymTab)
+    __fsym_list_msgqueue                     0x0800f6e8   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_msgqueue               0x0800f6f4   Data          12  cmd.o(FSymTab)
+    __fsym_list_memheap                      0x0800f700   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_memheap                0x0800f70c   Data          12  cmd.o(FSymTab)
+    __fsym_list_mempool                      0x0800f718   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_mempool                0x0800f724   Data          12  cmd.o(FSymTab)
+    __fsym_list_timer                        0x0800f730   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_timer                  0x0800f73c   Data          12  cmd.o(FSymTab)
+    __fsym_list_device                       0x0800f748   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_device                 0x0800f754   Data          12  cmd.o(FSymTab)
+    __fsym_list                              0x0800f760   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_help                        0x0800f76c   Data          12  msh.o(FSymTab)
+    __fsym___cmd_ps                          0x0800f778   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_time                        0x0800f784   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_free                        0x0800f790   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_dynmem_sample               0x0800f79c   Data          12  dynmem_sample.o(FSymTab)
+    __fsym___cmd_event_sample                0x0800f7a8   Data          12  event_sample.o(FSymTab)
+    __fsym___cmd_idle_hook_sample            0x0800f7b4   Data          12  idlehook_sample.o(FSymTab)
+    __fsym___cmd_interrupt_sample            0x0800f7c0   Data          12  interrupt_sample.o(FSymTab)
+    __fsym___cmd_mailbox_sample              0x0800f7cc   Data          12  mailbox_sample.o(FSymTab)
+    __fsym___cmd_mempool_sample              0x0800f7d8   Data          12  memp_sample.o(FSymTab)
+    __fsym___cmd_msgq_sample                 0x0800f7e4   Data          12  msgq_sample.o(FSymTab)
+    __fsym___cmd_mutex_sample                0x0800f7f0   Data          12  mutex_sample.o(FSymTab)
+    __fsym___cmd_pri_inversion               0x0800f7fc   Data          12  priority_inversion.o(FSymTab)
+    __fsym___cmd_producer_consumer           0x0800f808   Data          12  producer_consumer.o(FSymTab)
+    __fsym___cmd_scheduler_hook              0x0800f814   Data          12  scheduler_hook.o(FSymTab)
+    __fsym___cmd_semaphore_sample            0x0800f820   Data          12  semaphore_sample.o(FSymTab)
+    __fsym___cmd_signal_sample               0x0800f82c   Data          12  signal_sample.o(FSymTab)
+    __fsym___cmd_thread_sample               0x0800f838   Data          12  thread_sample.o(FSymTab)
+    __fsym___cmd_timer_sample                0x0800f844   Data          12  timer_sample.o(FSymTab)
+    __fsym___cmd_timeslice_sample            0x0800f850   Data          12  timeslice_sample.o(FSymTab)
+    FSymTab$$Limit                           0x0800f85c   Number         0  timeslice_sample.o(FSymTab)
+    Region$$Table$$Base                      0x0800f85c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0800f87c   Number         0  anon$$obj.o(Region$$Table)
     pin_irq_hdr_tab                          0x20000000   Data         192  drv_gpio.o(.data)
     uart1                                    0x200000c0   Data          68  drv_usart.o(.data)
     SystemCoreClock                          0x20000104   Data           4  system_stm32f1xx.o(.data)
@@ -1977,8 +1980,8 @@ Image Symbol Table
     sem_lock                                 0x20004614   Data          32  producer_consumer.o(.bss)
     sem_empty                                0x20004634   Data          32  producer_consumer.o(.bss)
     sem_full                                 0x20004654   Data          32  producer_consumer.o(.bss)
-    Image$$RW_IRAM1$$ZI$$Limit               0x20005830   Number         0  anon$$obj.o ABSOLUTE
-    __initial_sp                             0x20005830   Data           0  startup_stm32f103xe.o(STACK)
+    Image$$RW_IRAM1$$ZI$$Limit               0x20005cc8   Number         0  anon$$obj.o ABSOLUTE
+    __initial_sp                             0x20005cc8   Data           0  startup_stm32f103xe.o(STACK)
 
 
 
@@ -1988,229 +1991,230 @@ Memory Map of the image
 
   Image Entry point : 0x08000131
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000fb24, Max: 0x000c0000, ABSOLUTE, COMPRESSED[0x0000f8bc])
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000fb78, Max: 0x000c0000, ABSOLUTE, COMPRESSED[0x0000f910])
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0000f828, Max: 0x000c0000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0000f87c, Max: 0x000c0000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x08000000   0x00000130   Data   RO         1328    RESET               startup_stm32f103xe.o
-    0x08000130   0x08000130   0x00000000   Code   RO         2061  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x08000130   0x00000004   Code   RO         2082    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x08000134   0x00000004   Code   RO         2085    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x08000138   0x00000000   Code   RO         2087    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x08000138   0x00000000   Code   RO         2089    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000138   0x08000138   0x00000008   Code   RO         2090    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000140   0x08000140   0x00000000   Code   RO         2092    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000140   0x08000140   0x00000000   Code   RO         2094    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000140   0x08000140   0x00000004   Code   RO         2083    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000000   0x08000000   0x00000130   Data   RO         1251    RESET               startup_stm32f103xe.o
+    0x08000130   0x08000130   0x00000000   Code   RO         1984  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x08000130   0x00000004   Code   RO         2005    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x08000134   0x00000004   Code   RO         2008    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x08000138   0x00000000   Code   RO         2010    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x08000138   0x00000000   Code   RO         2012    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x08000138   0x00000008   Code   RO         2013    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x08000140   0x00000000   Code   RO         2015    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x08000140   0x00000000   Code   RO         2017    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x08000140   0x00000004   Code   RO         2006    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000144   0x08000144   0x00000070   Code   RO            1    .text               main.o
     0x080001b4   0x080001b4   0x00000190   Code   RO          111    .text               board.o
-    0x08000344   0x08000344   0x00000010   Code   RO          270    .text               stm32f1xx_it.o
-    0x08000354   0x08000354   0x0000057c   Code   RO          297    .text               drv_gpio.o
-    0x080008d0   0x080008d0   0x000004cc   Code   RO          356    .text               drv_usart.o
-    0x08000d9c   0x08000d9c   0x000000f4   Code   RO          393    .text               system_stm32f1xx.o
-    0x08000e90   0x08000e90   0x000004e8   Code   RO          460    .text               stm32f1xx_hal_gpio.o
-    0x08001378   0x08001378   0x00000ee4   Code   RO          560    .text               stm32f1xx_hal_dma.o
-    0x0800225c   0x0800225c   0x000002c4   Code   RO          584    .text               stm32f1xx_hal_cortex.o
-    0x08002520   0x08002520   0x000008a8   Code   RO          708    .text               stm32f1xx_hal_rcc.o
-    0x08002dc8   0x08002dc8   0x0000120a   Code   RO          894    .text               stm32f1xx_hal_uart.o
+    0x08000344   0x08000344   0x00000010   Code   RO          223    .text               stm32f1xx_it.o
+    0x08000354   0x08000354   0x0000057c   Code   RO          250    .text               drv_gpio.o
+    0x080008d0   0x080008d0   0x000004cc   Code   RO          279    .text               drv_usart.o
+    0x08000d9c   0x08000d9c   0x000000f4   Code   RO          316    .text               system_stm32f1xx.o
+    0x08000e90   0x08000e90   0x000004e8   Code   RO          383    .text               stm32f1xx_hal_gpio.o
+    0x08001378   0x08001378   0x00000ee4   Code   RO          483    .text               stm32f1xx_hal_dma.o
+    0x0800225c   0x0800225c   0x000002c4   Code   RO          507    .text               stm32f1xx_hal_cortex.o
+    0x08002520   0x08002520   0x000008a8   Code   RO          631    .text               stm32f1xx_hal_rcc.o
+    0x08002dc8   0x08002dc8   0x0000120a   Code   RO          817    .text               stm32f1xx_hal_uart.o
     0x08003fd2   0x08003fd2   0x00000002   PAD
-    0x08003fd4   0x08003fd4   0x0000015c   Code   RO          960    .text               stm32f1xx_hal.o
-    0x08004130   0x08004130   0x00000024   Code   RO         1329    .text               startup_stm32f103xe.o
-    0x08004154   0x08004154   0x0000006c   Code   RO         1333    .text               clock.o
-    0x080041c0   0x080041c0   0x000000dc   Code   RO         1347    .text               components.o
-    0x0800429c   0x0800429c   0x00000530   Code   RO         1366    .text               device.o
-    0x080047cc   0x080047cc   0x000001d4   Code   RO         1379    .text               idle.o
-    0x080049a0   0x080049a0   0x00001c08   Code   RO         1398    .text               ipc.o
-    0x080065a8   0x080065a8   0x0000007c   Code   RO         1416    .text               irq.o
-    0x08006624   0x08006624   0x00000ab0   Code   RO         1431    .text               kservice.o
-    0x080070d4   0x080070d4   0x000008f4   Code   RO         1451    .text               mem.o
-    0x080079c8   0x080079c8   0x000004f0   Code   RO         1497    .text               mempool.o
-    0x08007eb8   0x08007eb8   0x00000378   Code   RO         1515    .text               object.o
-    0x08008230   0x08008230   0x00000308   Code   RO         1534    .text               scheduler.o
-    0x08008538   0x08008538   0x000005c4   Code   RO         1555    .text               signal.o
-    0x08008afc   0x08008afc   0x0000059c   Code   RO         1585    .text               timer.o
-    0x08009098   0x08009098   0x000007f8   Code   RO         1604    .text               thread.o
-    0x08009890   0x08009890   0x000005d4   Code   RO         1624    .text               cpuport.o
-    0x08009e64   0x08009e64   0x000000f0   Code   RO         1640    .text               context_rvds.o
-    0x08009f54   0x08009f54   0x00000250   Code   RO         1644    .text               pin.o
-    0x0800a1a4   0x0800a1a4   0x00000530   Code   RO         1662    .text               serial.o
-    0x0800a6d4   0x0800a6d4   0x000008bc   Code   RO         1675    .text               shell.o
-    0x0800af90   0x0800af90   0x00000bfc   Code   RO         1716    .text               cmd.o
-    0x0800bb8c   0x0800bb8c   0x00000368   Code   RO         1737    .text               msh.o
-    0x0800bef4   0x0800bef4   0x00000022   Code   RO         1754    .text               msh_cmd.o
+    0x08003fd4   0x08003fd4   0x0000015c   Code   RO          883    .text               stm32f1xx_hal.o
+    0x08004130   0x08004130   0x00000024   Code   RO         1252    .text               startup_stm32f103xe.o
+    0x08004154   0x08004154   0x0000006c   Code   RO         1256    .text               clock.o
+    0x080041c0   0x080041c0   0x000000dc   Code   RO         1270    .text               components.o
+    0x0800429c   0x0800429c   0x00000530   Code   RO         1289    .text               device.o
+    0x080047cc   0x080047cc   0x000001d4   Code   RO         1302    .text               idle.o
+    0x080049a0   0x080049a0   0x00001c08   Code   RO         1321    .text               ipc.o
+    0x080065a8   0x080065a8   0x0000007c   Code   RO         1339    .text               irq.o
+    0x08006624   0x08006624   0x00000ab0   Code   RO         1354    .text               kservice.o
+    0x080070d4   0x080070d4   0x000008f4   Code   RO         1374    .text               mem.o
+    0x080079c8   0x080079c8   0x000004f0   Code   RO         1420    .text               mempool.o
+    0x08007eb8   0x08007eb8   0x00000378   Code   RO         1438    .text               object.o
+    0x08008230   0x08008230   0x00000308   Code   RO         1457    .text               scheduler.o
+    0x08008538   0x08008538   0x000005c4   Code   RO         1478    .text               signal.o
+    0x08008afc   0x08008afc   0x0000059c   Code   RO         1508    .text               timer.o
+    0x08009098   0x08009098   0x000007f8   Code   RO         1527    .text               thread.o
+    0x08009890   0x08009890   0x000005d4   Code   RO         1547    .text               cpuport.o
+    0x08009e64   0x08009e64   0x000000f0   Code   RO         1563    .text               context_rvds.o
+    0x08009f54   0x08009f54   0x00000250   Code   RO         1567    .text               pin.o
+    0x0800a1a4   0x0800a1a4   0x00000530   Code   RO         1585    .text               serial.o
+    0x0800a6d4   0x0800a6d4   0x000008bc   Code   RO         1598    .text               shell.o
+    0x0800af90   0x0800af90   0x00000bfc   Code   RO         1639    .text               cmd.o
+    0x0800bb8c   0x0800bb8c   0x00000368   Code   RO         1660    .text               msh.o
+    0x0800bef4   0x0800bef4   0x00000022   Code   RO         1677    .text               msh_cmd.o
     0x0800bf16   0x0800bf16   0x00000002   PAD
-    0x0800bf18   0x0800bf18   0x000000d0   Code   RO         1776    .text               dynmem_sample.o
-    0x0800bfe8   0x0800bfe8   0x00000204   Code   RO         1792    .text               event_sample.o
-    0x0800c1ec   0x0800c1ec   0x00000138   Code   RO         1809    .text               idlehook_sample.o
-    0x0800c324   0x0800c324   0x000000b8   Code   RO         1826    .text               interrupt_sample.o
-    0x0800c3dc   0x0800c3dc   0x00000194   Code   RO         1843    .text               mailbox_sample.o
-    0x0800c570   0x0800c570   0x00000160   Code   RO         1861    .text               memp_sample.o
-    0x0800c6d0   0x0800c6d0   0x0000025c   Code   RO         1879    .text               msgq_sample.o
-    0x0800c92c   0x0800c92c   0x000001b0   Code   RO         1896    .text               mutex_sample.o
-    0x0800cadc   0x0800cadc   0x00000254   Code   RO         1914    .text               priority_inversion.o
-    0x0800cd30   0x0800cd30   0x000002d8   Code   RO         1931    .text               producer_consumer.o
-    0x0800d008   0x0800d008   0x000000d8   Code   RO         1949    .text               scheduler_hook.o
-    0x0800d0e0   0x0800d0e0   0x000001fc   Code   RO         1966    .text               semaphore_sample.o
-    0x0800d2dc   0x0800d2dc   0x000000bc   Code   RO         1984    .text               signal_sample.o
-    0x0800d398   0x0800d398   0x000000e8   Code   RO         2001    .text               thread_sample.o
-    0x0800d480   0x0800d480   0x00000104   Code   RO         2019    .text               timer_sample.o
-    0x0800d584   0x0800d584   0x000000b4   Code   RO         2036    .text               timeslice_sample.o
-    0x0800d638   0x0800d638   0x00000024   Code   RO         2066    .text               mc_w.l(memcpya.o)
-    0x0800d65c   0x0800d65c   0x00000024   Code   RO         2068    .text               mc_w.l(memseta.o)
-    0x0800d680   0x0800d680   0x00000018   Code   RO         2070    .text               mc_w.l(strcat.o)
-    0x0800d698   0x0800d698   0x0000000e   Code   RO         2072    .text               mc_w.l(strlen.o)
-    0x0800d6a6   0x0800d6a6   0x0000001a   Code   RO         2074    .text               mc_w.l(memcmp.o)
-    0x0800d6c0   0x0800d6c0   0x00000012   Code   RO         2076    .text               mc_w.l(strcpy.o)
-    0x0800d6d2   0x0800d6d2   0x0000001e   Code   RO         2078    .text               mc_w.l(strncmp.o)
-    0x0800d6f0   0x0800d6f0   0x00000024   Code   RO         2096    .text               mc_w.l(init.o)
-    0x0800d714   0x0800d714   0x00000056   Code   RO         2106    .text               mc_w.l(__dczerorl2.o)
-    0x0800d76a   0x0800d76a   0x0000000e   Code   RO         2100    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0800d778   0x0800d778   0x00000002   Code   RO         2101    i.__scatterload_null  mc_w.l(handlers.o)
-    0x0800d77a   0x0800d77a   0x0000000e   Code   RO         2102    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x0800d788   0x0800d788   0x00000013   Data   RO          112    .constdata          board.o
-    0x0800d79b   0x0800d79b   0x00000001   PAD
-    0x0800d79c   0x0800d79c   0x00000968   Data   RO          298    .constdata          drv_gpio.o
-    0x0800e104   0x0800e104   0x0000006f   Data   RO          358    .constdata          drv_usart.o
-    0x0800e173   0x0800e173   0x00000018   Data   RO          394    .constdata          system_stm32f1xx.o
-    0x0800e18b   0x0800e18b   0x00000014   Data   RO         1348    .constdata          components.o
-    0x0800e19f   0x0800e19f   0x000000c9   Data   RO         1367    .constdata          device.o
-    0x0800e268   0x0800e268   0x00000016   Data   RO         1381    .constdata          idle.o
-    0x0800e27e   0x0800e27e   0x000001f7   Data   RO         1399    .constdata          ipc.o
-    0x0800e475   0x0800e475   0x00000122   Data   RO         1433    .constdata          kservice.o
-    0x0800e597   0x0800e597   0x00000046   Data   RO         1453    .constdata          mem.o
-    0x0800e5dd   0x0800e5dd   0x0000003e   Data   RO         1498    .constdata          mempool.o
-    0x0800e61b   0x0800e61b   0x00000080   Data   RO         1516    .constdata          object.o
-    0x0800e69b   0x0800e69b   0x0000004e   Data   RO         1536    .constdata          scheduler.o
-    0x0800e6e9   0x0800e6e9   0x00000048   Data   RO         1556    .constdata          signal.o
-    0x0800e731   0x0800e731   0x0000005c   Data   RO         1586    .constdata          timer.o
-    0x0800e78d   0x0800e78d   0x000000b9   Data   RO         1605    .constdata          thread.o
-    0x0800e846   0x0800e846   0x00000013   Data   RO         1625    .constdata          cpuport.o
-    0x0800e859   0x0800e859   0x0000007e   Data   RO         1646    .constdata          pin.o
-    0x0800e8d7   0x0800e8d7   0x000000b5   Data   RO         1663    .constdata          serial.o
-    0x0800e98c   0x0800e98c   0x0000005b   Data   RO         1677    .constdata          shell.o
-    0x0800e9e7   0x0800e9e7   0x00000001   PAD
-    0x0800e9e8   0x0800e9e8   0x00000050   Data   RO         1717    .constdata          cmd.o
-    0x0800ea38   0x0800ea38   0x0000000e   Data   RO         1738    .constdata          msh.o
-    0x0800ea46   0x0800ea46   0x00000002   PAD
-    0x0800ea48   0x0800ea48   0x00000043   Data   RO          113    .conststring        board.o
-    0x0800ea8b   0x0800ea8b   0x00000001   PAD
-    0x0800ea8c   0x0800ea8c   0x0000015a   Data   RO         1400    .conststring        ipc.o
-    0x0800ebe6   0x0800ebe6   0x00000002   PAD
-    0x0800ebe8   0x0800ebe8   0x000000ed   Data   RO         1454    .conststring        mem.o
-    0x0800ecd5   0x0800ecd5   0x00000003   PAD
-    0x0800ecd8   0x0800ecd8   0x00000042   Data   RO         1606    .conststring        thread.o
-    0x0800ed1a   0x0800ed1a   0x00000002   PAD
-    0x0800ed1c   0x0800ed1c   0x0000015d   Data   RO         1718    .conststring        cmd.o
-    0x0800ee79   0x0800ee79   0x00000025   Data   RO            2    .rodata.name        main.o
-    0x0800ee9e   0x0800ee9e   0x00000027   Data   RO         1456    .rodata.name        mem.o
-    0x0800eec5   0x0800eec5   0x00000069   Data   RO         1647    .rodata.name        pin.o
-    0x0800ef2e   0x0800ef2e   0x00000385   Data   RO         1719    .rodata.name        cmd.o
-    0x0800f2b3   0x0800f2b3   0x00000021   Data   RO         1739    .rodata.name        msh.o
-    0x0800f2d4   0x0800f2d4   0x0000007b   Data   RO         1755    .rodata.name        msh_cmd.o
-    0x0800f34f   0x0800f34f   0x00000022   Data   RO         1777    .rodata.name        dynmem_sample.o
-    0x0800f371   0x0800f371   0x00000020   Data   RO         1794    .rodata.name        event_sample.o
-    0x0800f391   0x0800f391   0x00000028   Data   RO         1811    .rodata.name        idlehook_sample.o
-    0x0800f3b9   0x0800f3b9   0x00000028   Data   RO         1828    .rodata.name        interrupt_sample.o
-    0x0800f3e1   0x0800f3e1   0x00000024   Data   RO         1846    .rodata.name        mailbox_sample.o
-    0x0800f405   0x0800f405   0x00000024   Data   RO         1864    .rodata.name        memp_sample.o
-    0x0800f429   0x0800f429   0x0000001e   Data   RO         1881    .rodata.name        msgq_sample.o
-    0x0800f447   0x0800f447   0x00000020   Data   RO         1899    .rodata.name        mutex_sample.o
-    0x0800f467   0x0800f467   0x00000029   Data   RO         1916    .rodata.name        priority_inversion.o
-    0x0800f490   0x0800f490   0x00000031   Data   RO         1934    .rodata.name        producer_consumer.o
-    0x0800f4c1   0x0800f4c1   0x0000002b   Data   RO         1951    .rodata.name        scheduler_hook.o
-    0x0800f4ec   0x0800f4ec   0x00000028   Data   RO         1969    .rodata.name        semaphore_sample.o
-    0x0800f514   0x0800f514   0x00000022   Data   RO         1986    .rodata.name        signal_sample.o
-    0x0800f536   0x0800f536   0x00000022   Data   RO         2004    .rodata.name        thread_sample.o
-    0x0800f558   0x0800f558   0x00000020   Data   RO         2021    .rodata.name        timer_sample.o
-    0x0800f578   0x0800f578   0x00000028   Data   RO         2037    .rodata.name        timeslice_sample.o
-    0x0800f5a0   0x0800f5a0   0x00000004   Data   RO         1349    .rti_fn.0           components.o
-    0x0800f5a4   0x0800f5a4   0x00000004   Data   RO         1350    .rti_fn.0.end       components.o
-    0x0800f5a8   0x0800f5a8   0x00000004   Data   RO          300    .rti_fn.1           drv_gpio.o
-    0x0800f5ac   0x0800f5ac   0x00000004   Data   RO          360    .rti_fn.1           drv_usart.o
-    0x0800f5b0   0x0800f5b0   0x00000004   Data   RO         1351    .rti_fn.1.end       components.o
-    0x0800f5b4   0x0800f5b4   0x00000004   Data   RO         1679    .rti_fn.6           shell.o
-    0x0800f5b8   0x0800f5b8   0x00000004   Data   RO         1352    .rti_fn.6.end       components.o
-    0x0800f5bc   0x0800f5bc   0x0000000c   Data   RO            3    FSymTab             main.o
-    0x0800f5c8   0x0800f5c8   0x0000000c   Data   RO         1457    FSymTab             mem.o
-    0x0800f5d4   0x0800f5d4   0x00000024   Data   RO         1648    FSymTab             pin.o
-    0x0800f5f8   0x0800f5f8   0x00000120   Data   RO         1720    FSymTab             cmd.o
-    0x0800f718   0x0800f718   0x0000000c   Data   RO         1740    FSymTab             msh.o
-    0x0800f724   0x0800f724   0x00000024   Data   RO         1756    FSymTab             msh_cmd.o
-    0x0800f748   0x0800f748   0x0000000c   Data   RO         1778    FSymTab             dynmem_sample.o
-    0x0800f754   0x0800f754   0x0000000c   Data   RO         1795    FSymTab             event_sample.o
-    0x0800f760   0x0800f760   0x0000000c   Data   RO         1812    FSymTab             idlehook_sample.o
-    0x0800f76c   0x0800f76c   0x0000000c   Data   RO         1829    FSymTab             interrupt_sample.o
-    0x0800f778   0x0800f778   0x0000000c   Data   RO         1847    FSymTab             mailbox_sample.o
-    0x0800f784   0x0800f784   0x0000000c   Data   RO         1865    FSymTab             memp_sample.o
-    0x0800f790   0x0800f790   0x0000000c   Data   RO         1882    FSymTab             msgq_sample.o
-    0x0800f79c   0x0800f79c   0x0000000c   Data   RO         1900    FSymTab             mutex_sample.o
-    0x0800f7a8   0x0800f7a8   0x0000000c   Data   RO         1917    FSymTab             priority_inversion.o
-    0x0800f7b4   0x0800f7b4   0x0000000c   Data   RO         1935    FSymTab             producer_consumer.o
-    0x0800f7c0   0x0800f7c0   0x0000000c   Data   RO         1952    FSymTab             scheduler_hook.o
-    0x0800f7cc   0x0800f7cc   0x0000000c   Data   RO         1970    FSymTab             semaphore_sample.o
-    0x0800f7d8   0x0800f7d8   0x0000000c   Data   RO         1987    FSymTab             signal_sample.o
-    0x0800f7e4   0x0800f7e4   0x0000000c   Data   RO         2005    FSymTab             thread_sample.o
-    0x0800f7f0   0x0800f7f0   0x0000000c   Data   RO         2022    FSymTab             timer_sample.o
-    0x0800f7fc   0x0800f7fc   0x0000000c   Data   RO         2038    FSymTab             timeslice_sample.o
-    0x0800f808   0x0800f808   0x00000020   Data   RO         2098    Region$$Table       anon$$obj.o
+    0x0800bf18   0x0800bf18   0x000000d0   Code   RO         1699    .text               dynmem_sample.o
+    0x0800bfe8   0x0800bfe8   0x00000204   Code   RO         1715    .text               event_sample.o
+    0x0800c1ec   0x0800c1ec   0x00000138   Code   RO         1732    .text               idlehook_sample.o
+    0x0800c324   0x0800c324   0x000000b8   Code   RO         1749    .text               interrupt_sample.o
+    0x0800c3dc   0x0800c3dc   0x00000194   Code   RO         1766    .text               mailbox_sample.o
+    0x0800c570   0x0800c570   0x00000160   Code   RO         1784    .text               memp_sample.o
+    0x0800c6d0   0x0800c6d0   0x0000025c   Code   RO         1802    .text               msgq_sample.o
+    0x0800c92c   0x0800c92c   0x000001b0   Code   RO         1819    .text               mutex_sample.o
+    0x0800cadc   0x0800cadc   0x00000254   Code   RO         1837    .text               priority_inversion.o
+    0x0800cd30   0x0800cd30   0x000002d8   Code   RO         1854    .text               producer_consumer.o
+    0x0800d008   0x0800d008   0x000000d8   Code   RO         1872    .text               scheduler_hook.o
+    0x0800d0e0   0x0800d0e0   0x000001fc   Code   RO         1889    .text               semaphore_sample.o
+    0x0800d2dc   0x0800d2dc   0x000000bc   Code   RO         1907    .text               signal_sample.o
+    0x0800d398   0x0800d398   0x0000013c   Code   RO         1924    .text               thread_sample.o
+    0x0800d4d4   0x0800d4d4   0x00000104   Code   RO         1942    .text               timer_sample.o
+    0x0800d5d8   0x0800d5d8   0x000000b4   Code   RO         1959    .text               timeslice_sample.o
+    0x0800d68c   0x0800d68c   0x00000024   Code   RO         1989    .text               mc_w.l(memcpya.o)
+    0x0800d6b0   0x0800d6b0   0x00000024   Code   RO         1991    .text               mc_w.l(memseta.o)
+    0x0800d6d4   0x0800d6d4   0x00000018   Code   RO         1993    .text               mc_w.l(strcat.o)
+    0x0800d6ec   0x0800d6ec   0x0000000e   Code   RO         1995    .text               mc_w.l(strlen.o)
+    0x0800d6fa   0x0800d6fa   0x0000001a   Code   RO         1997    .text               mc_w.l(memcmp.o)
+    0x0800d714   0x0800d714   0x00000012   Code   RO         1999    .text               mc_w.l(strcpy.o)
+    0x0800d726   0x0800d726   0x0000001e   Code   RO         2001    .text               mc_w.l(strncmp.o)
+    0x0800d744   0x0800d744   0x00000024   Code   RO         2019    .text               mc_w.l(init.o)
+    0x0800d768   0x0800d768   0x00000056   Code   RO         2029    .text               mc_w.l(__dczerorl2.o)
+    0x0800d7be   0x0800d7be   0x0000000e   Code   RO         2023    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0800d7cc   0x0800d7cc   0x00000002   Code   RO         2024    i.__scatterload_null  mc_w.l(handlers.o)
+    0x0800d7ce   0x0800d7ce   0x0000000e   Code   RO         2025    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800d7dc   0x0800d7dc   0x00000013   Data   RO          112    .constdata          board.o
+    0x0800d7ef   0x0800d7ef   0x00000001   PAD
+    0x0800d7f0   0x0800d7f0   0x00000968   Data   RO          251    .constdata          drv_gpio.o
+    0x0800e158   0x0800e158   0x0000006f   Data   RO          281    .constdata          drv_usart.o
+    0x0800e1c7   0x0800e1c7   0x00000018   Data   RO          317    .constdata          system_stm32f1xx.o
+    0x0800e1df   0x0800e1df   0x00000014   Data   RO         1271    .constdata          components.o
+    0x0800e1f3   0x0800e1f3   0x000000c9   Data   RO         1290    .constdata          device.o
+    0x0800e2bc   0x0800e2bc   0x00000016   Data   RO         1304    .constdata          idle.o
+    0x0800e2d2   0x0800e2d2   0x000001f7   Data   RO         1322    .constdata          ipc.o
+    0x0800e4c9   0x0800e4c9   0x00000122   Data   RO         1356    .constdata          kservice.o
+    0x0800e5eb   0x0800e5eb   0x00000046   Data   RO         1376    .constdata          mem.o
+    0x0800e631   0x0800e631   0x0000003e   Data   RO         1421    .constdata          mempool.o
+    0x0800e66f   0x0800e66f   0x00000080   Data   RO         1439    .constdata          object.o
+    0x0800e6ef   0x0800e6ef   0x0000004e   Data   RO         1459    .constdata          scheduler.o
+    0x0800e73d   0x0800e73d   0x00000048   Data   RO         1479    .constdata          signal.o
+    0x0800e785   0x0800e785   0x0000005c   Data   RO         1509    .constdata          timer.o
+    0x0800e7e1   0x0800e7e1   0x000000b9   Data   RO         1528    .constdata          thread.o
+    0x0800e89a   0x0800e89a   0x00000013   Data   RO         1548    .constdata          cpuport.o
+    0x0800e8ad   0x0800e8ad   0x0000007e   Data   RO         1569    .constdata          pin.o
+    0x0800e92b   0x0800e92b   0x000000b5   Data   RO         1586    .constdata          serial.o
+    0x0800e9e0   0x0800e9e0   0x0000005b   Data   RO         1600    .constdata          shell.o
+    0x0800ea3b   0x0800ea3b   0x00000001   PAD
+    0x0800ea3c   0x0800ea3c   0x00000050   Data   RO         1640    .constdata          cmd.o
+    0x0800ea8c   0x0800ea8c   0x0000000e   Data   RO         1661    .constdata          msh.o
+    0x0800ea9a   0x0800ea9a   0x00000002   PAD
+    0x0800ea9c   0x0800ea9c   0x00000043   Data   RO          113    .conststring        board.o
+    0x0800eadf   0x0800eadf   0x00000001   PAD
+    0x0800eae0   0x0800eae0   0x0000015a   Data   RO         1323    .conststring        ipc.o
+    0x0800ec3a   0x0800ec3a   0x00000002   PAD
+    0x0800ec3c   0x0800ec3c   0x000000ed   Data   RO         1377    .conststring        mem.o
+    0x0800ed29   0x0800ed29   0x00000003   PAD
+    0x0800ed2c   0x0800ed2c   0x00000042   Data   RO         1529    .conststring        thread.o
+    0x0800ed6e   0x0800ed6e   0x00000002   PAD
+    0x0800ed70   0x0800ed70   0x0000015d   Data   RO         1641    .conststring        cmd.o
+    0x0800eecd   0x0800eecd   0x00000025   Data   RO            2    .rodata.name        main.o
+    0x0800eef2   0x0800eef2   0x00000027   Data   RO         1379    .rodata.name        mem.o
+    0x0800ef19   0x0800ef19   0x00000069   Data   RO         1570    .rodata.name        pin.o
+    0x0800ef82   0x0800ef82   0x00000385   Data   RO         1642    .rodata.name        cmd.o
+    0x0800f307   0x0800f307   0x00000021   Data   RO         1662    .rodata.name        msh.o
+    0x0800f328   0x0800f328   0x0000007b   Data   RO         1678    .rodata.name        msh_cmd.o
+    0x0800f3a3   0x0800f3a3   0x00000022   Data   RO         1700    .rodata.name        dynmem_sample.o
+    0x0800f3c5   0x0800f3c5   0x00000020   Data   RO         1717    .rodata.name        event_sample.o
+    0x0800f3e5   0x0800f3e5   0x00000028   Data   RO         1734    .rodata.name        idlehook_sample.o
+    0x0800f40d   0x0800f40d   0x00000028   Data   RO         1751    .rodata.name        interrupt_sample.o
+    0x0800f435   0x0800f435   0x00000024   Data   RO         1769    .rodata.name        mailbox_sample.o
+    0x0800f459   0x0800f459   0x00000024   Data   RO         1787    .rodata.name        memp_sample.o
+    0x0800f47d   0x0800f47d   0x0000001e   Data   RO         1804    .rodata.name        msgq_sample.o
+    0x0800f49b   0x0800f49b   0x00000020   Data   RO         1822    .rodata.name        mutex_sample.o
+    0x0800f4bb   0x0800f4bb   0x00000029   Data   RO         1839    .rodata.name        priority_inversion.o
+    0x0800f4e4   0x0800f4e4   0x00000031   Data   RO         1857    .rodata.name        producer_consumer.o
+    0x0800f515   0x0800f515   0x0000002b   Data   RO         1874    .rodata.name        scheduler_hook.o
+    0x0800f540   0x0800f540   0x00000028   Data   RO         1892    .rodata.name        semaphore_sample.o
+    0x0800f568   0x0800f568   0x00000022   Data   RO         1909    .rodata.name        signal_sample.o
+    0x0800f58a   0x0800f58a   0x00000022   Data   RO         1927    .rodata.name        thread_sample.o
+    0x0800f5ac   0x0800f5ac   0x00000020   Data   RO         1944    .rodata.name        timer_sample.o
+    0x0800f5cc   0x0800f5cc   0x00000028   Data   RO         1960    .rodata.name        timeslice_sample.o
+    0x0800f5f4   0x0800f5f4   0x00000004   Data   RO         1272    .rti_fn.0           components.o
+    0x0800f5f8   0x0800f5f8   0x00000004   Data   RO         1273    .rti_fn.0.end       components.o
+    0x0800f5fc   0x0800f5fc   0x00000004   Data   RO          253    .rti_fn.1           drv_gpio.o
+    0x0800f600   0x0800f600   0x00000004   Data   RO          283    .rti_fn.1           drv_usart.o
+    0x0800f604   0x0800f604   0x00000004   Data   RO         1274    .rti_fn.1.end       components.o
+    0x0800f608   0x0800f608   0x00000004   Data   RO         1602    .rti_fn.6           shell.o
+    0x0800f60c   0x0800f60c   0x00000004   Data   RO         1275    .rti_fn.6.end       components.o
+    0x0800f610   0x0800f610   0x0000000c   Data   RO            3    FSymTab             main.o
+    0x0800f61c   0x0800f61c   0x0000000c   Data   RO         1380    FSymTab             mem.o
+    0x0800f628   0x0800f628   0x00000024   Data   RO         1571    FSymTab             pin.o
+    0x0800f64c   0x0800f64c   0x00000120   Data   RO         1643    FSymTab             cmd.o
+    0x0800f76c   0x0800f76c   0x0000000c   Data   RO         1663    FSymTab             msh.o
+    0x0800f778   0x0800f778   0x00000024   Data   RO         1679    FSymTab             msh_cmd.o
+    0x0800f79c   0x0800f79c   0x0000000c   Data   RO         1701    FSymTab             dynmem_sample.o
+    0x0800f7a8   0x0800f7a8   0x0000000c   Data   RO         1718    FSymTab             event_sample.o
+    0x0800f7b4   0x0800f7b4   0x0000000c   Data   RO         1735    FSymTab             idlehook_sample.o
+    0x0800f7c0   0x0800f7c0   0x0000000c   Data   RO         1752    FSymTab             interrupt_sample.o
+    0x0800f7cc   0x0800f7cc   0x0000000c   Data   RO         1770    FSymTab             mailbox_sample.o
+    0x0800f7d8   0x0800f7d8   0x0000000c   Data   RO         1788    FSymTab             memp_sample.o
+    0x0800f7e4   0x0800f7e4   0x0000000c   Data   RO         1805    FSymTab             msgq_sample.o
+    0x0800f7f0   0x0800f7f0   0x0000000c   Data   RO         1823    FSymTab             mutex_sample.o
+    0x0800f7fc   0x0800f7fc   0x0000000c   Data   RO         1840    FSymTab             priority_inversion.o
+    0x0800f808   0x0800f808   0x0000000c   Data   RO         1858    FSymTab             producer_consumer.o
+    0x0800f814   0x0800f814   0x0000000c   Data   RO         1875    FSymTab             scheduler_hook.o
+    0x0800f820   0x0800f820   0x0000000c   Data   RO         1893    FSymTab             semaphore_sample.o
+    0x0800f82c   0x0800f82c   0x0000000c   Data   RO         1910    FSymTab             signal_sample.o
+    0x0800f838   0x0800f838   0x0000000c   Data   RO         1928    FSymTab             thread_sample.o
+    0x0800f844   0x0800f844   0x0000000c   Data   RO         1945    FSymTab             timer_sample.o
+    0x0800f850   0x0800f850   0x0000000c   Data   RO         1961    FSymTab             timeslice_sample.o
+    0x0800f85c   0x0800f85c   0x00000020   Data   RO         2021    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800f828, Size: 0x00005830, Max: 0x00018000, ABSOLUTE, COMPRESSED[0x00000094])
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800f87c, Size: 0x00005cc8, Max: 0x00018000, ABSOLUTE, COMPRESSED[0x00000094])
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   COMPRESSED   0x000000c0   Data   RW          299    .data               drv_gpio.o
-    0x200000c0   COMPRESSED   0x00000044   Data   RW          359    .data               drv_usart.o
-    0x20000104   COMPRESSED   0x00000004   Data   RW          395    .data               system_stm32f1xx.o
-    0x20000108   COMPRESSED   0x00000004   Data   RW          961    .data               stm32f1xx_hal.o
-    0x2000010c   COMPRESSED   0x00000004   Data   RW         1334    .data               clock.o
-    0x20000110   COMPRESSED   0x00000009   Data   RW         1417    .data               irq.o
+    0x20000000   COMPRESSED   0x000000c0   Data   RW          252    .data               drv_gpio.o
+    0x200000c0   COMPRESSED   0x00000044   Data   RW          282    .data               drv_usart.o
+    0x20000104   COMPRESSED   0x00000004   Data   RW          318    .data               system_stm32f1xx.o
+    0x20000108   COMPRESSED   0x00000004   Data   RW          884    .data               stm32f1xx_hal.o
+    0x2000010c   COMPRESSED   0x00000004   Data   RW         1257    .data               clock.o
+    0x20000110   COMPRESSED   0x00000009   Data   RW         1340    .data               irq.o
     0x20000119   COMPRESSED   0x00000003   PAD
-    0x2000011c   COMPRESSED   0x0000000c   Data   RW         1434    .data               kservice.o
-    0x20000128   COMPRESSED   0x00000020   Data   RW         1455    .data               mem.o
-    0x20000148   COMPRESSED   0x00000008   Data   RW         1499    .data               mempool.o
-    0x20000150   COMPRESSED   0x000000b4   Data   RW         1517    .data               object.o
-    0x20000204   COMPRESSED   0x0000001c   Data   RW         1537    .data               scheduler.o
-    0x20000220   COMPRESSED   0x00000004   Data   RW         1557    .data               signal.o
-    0x20000224   COMPRESSED   0x00000010   Data   RW         1587    .data               timer.o
-    0x20000234   COMPRESSED   0x0000000c   Data   RW         1607    .data               thread.o
-    0x20000240   COMPRESSED   0x00000010   Data   RW         1626    .data               cpuport.o
-    0x20000250   COMPRESSED   0x00000004   Data   RW         1678    .data               shell.o
-    0x20000254   COMPRESSED   0x00000010   Data   RW         1700    .data               symbol.o
-    0x20000264   COMPRESSED   0x00000008   Data   RW         1810    .data               idlehook_sample.o
-    0x2000026c   COMPRESSED   0x00000004   Data   RW         1827    .data               interrupt_sample.o
-    0x20000270   COMPRESSED   0x00000027   Data   RW         1845    .data               mailbox_sample.o
+    0x2000011c   COMPRESSED   0x0000000c   Data   RW         1357    .data               kservice.o
+    0x20000128   COMPRESSED   0x00000020   Data   RW         1378    .data               mem.o
+    0x20000148   COMPRESSED   0x00000008   Data   RW         1422    .data               mempool.o
+    0x20000150   COMPRESSED   0x000000b4   Data   RW         1440    .data               object.o
+    0x20000204   COMPRESSED   0x0000001c   Data   RW         1460    .data               scheduler.o
+    0x20000220   COMPRESSED   0x00000004   Data   RW         1480    .data               signal.o
+    0x20000224   COMPRESSED   0x00000010   Data   RW         1510    .data               timer.o
+    0x20000234   COMPRESSED   0x0000000c   Data   RW         1530    .data               thread.o
+    0x20000240   COMPRESSED   0x00000010   Data   RW         1549    .data               cpuport.o
+    0x20000250   COMPRESSED   0x00000004   Data   RW         1601    .data               shell.o
+    0x20000254   COMPRESSED   0x00000010   Data   RW         1623    .data               symbol.o
+    0x20000264   COMPRESSED   0x00000008   Data   RW         1733    .data               idlehook_sample.o
+    0x2000026c   COMPRESSED   0x00000004   Data   RW         1750    .data               interrupt_sample.o
+    0x20000270   COMPRESSED   0x00000027   Data   RW         1768    .data               mailbox_sample.o
     0x20000297   COMPRESSED   0x00000001   PAD
-    0x20000298   COMPRESSED   0x00000008   Data   RW         1863    .data               memp_sample.o
-    0x200002a0   COMPRESSED   0x00000006   Data   RW         1898    .data               mutex_sample.o
+    0x20000298   COMPRESSED   0x00000008   Data   RW         1786    .data               memp_sample.o
+    0x200002a0   COMPRESSED   0x00000006   Data   RW         1821    .data               mutex_sample.o
     0x200002a6   COMPRESSED   0x00000002   PAD
-    0x200002a8   COMPRESSED   0x00000010   Data   RW         1915    .data               priority_inversion.o
-    0x200002b8   COMPRESSED   0x00000010   Data   RW         1933    .data               producer_consumer.o
-    0x200002c8   COMPRESSED   0x00000010   Data   RW         1950    .data               scheduler_hook.o
-    0x200002d8   COMPRESSED   0x0000000d   Data   RW         1968    .data               semaphore_sample.o
+    0x200002a8   COMPRESSED   0x00000010   Data   RW         1838    .data               priority_inversion.o
+    0x200002b8   COMPRESSED   0x00000010   Data   RW         1856    .data               producer_consumer.o
+    0x200002c8   COMPRESSED   0x00000010   Data   RW         1873    .data               scheduler_hook.o
+    0x200002d8   COMPRESSED   0x0000000d   Data   RW         1891    .data               semaphore_sample.o
     0x200002e5   COMPRESSED   0x00000003   PAD
-    0x200002e8   COMPRESSED   0x00000004   Data   RW         1985    .data               signal_sample.o
-    0x200002ec   COMPRESSED   0x00000004   Data   RW         2003    .data               thread_sample.o
-    0x200002f0   COMPRESSED   0x0000000c   Data   RW         2020    .data               timer_sample.o
-    0x200002fc        -       0x00000054   Zero   RW          357    .bss                drv_usart.o
-    0x20000350        -       0x000001a4   Zero   RW         1380    .bss                idle.o
-    0x200004f4        -       0x00000080   Zero   RW         1432    .bss                kservice.o
-    0x20000574        -       0x00000020   Zero   RW         1452    .bss                mem.o
-    0x20000594        -       0x00000100   Zero   RW         1535    .bss                scheduler.o
-    0x20000694        -       0x00000044   Zero   RW         1645    .bss                pin.o
-    0x200006d8        -       0x00000081   Zero   RW         1676    .bss                shell.o
+    0x200002e8   COMPRESSED   0x00000004   Data   RW         1908    .data               signal_sample.o
+    0x200002ec   COMPRESSED   0x00000004   Data   RW         1926    .data               thread_sample.o
+    0x200002f0   COMPRESSED   0x0000000c   Data   RW         1943    .data               timer_sample.o
+    0x200002fc        -       0x00000054   Zero   RW          280    .bss                drv_usart.o
+    0x20000350        -       0x000001a4   Zero   RW         1303    .bss                idle.o
+    0x200004f4        -       0x00000080   Zero   RW         1355    .bss                kservice.o
+    0x20000574        -       0x00000020   Zero   RW         1375    .bss                mem.o
+    0x20000594        -       0x00000100   Zero   RW         1458    .bss                scheduler.o
+    0x20000694        -       0x00000044   Zero   RW         1568    .bss                pin.o
+    0x200006d8        -       0x00000081   Zero   RW         1599    .bss                shell.o
     0x20000759   COMPRESSED   0x00000003   PAD
-    0x2000075c        -       0x00000948   Zero   RW         1793    .bss                event_sample.o
-    0x200010a4        -       0x000009d8   Zero   RW         1844    .bss                mailbox_sample.o
-    0x20001a7c        -       0x00001100   Zero   RW         1862    .bss                memp_sample.o
-    0x20002b7c        -       0x0000115c   Zero   RW         1880    .bss                msgq_sample.o
-    0x20003cd8        -       0x00000928   Zero   RW         1897    .bss                mutex_sample.o
-    0x20004600        -       0x00000074   Zero   RW         1932    .bss                producer_consumer.o
-    0x20004674        -       0x00000928   Zero   RW         1967    .bss                semaphore_sample.o
-    0x20004f9c        -       0x00000494   Zero   RW         2002    .bss                thread_sample.o
-    0x20005430        -       0x00000400   Zero   RW         1326    STACK               startup_stm32f103xe.o
+    0x2000075c        -       0x00000948   Zero   RW         1716    .bss                event_sample.o
+    0x200010a4        -       0x000009d8   Zero   RW         1767    .bss                mailbox_sample.o
+    0x20001a7c        -       0x00001100   Zero   RW         1785    .bss                memp_sample.o
+    0x20002b7c        -       0x0000115c   Zero   RW         1803    .bss                msgq_sample.o
+    0x20003cd8        -       0x00000928   Zero   RW         1820    .bss                mutex_sample.o
+    0x20004600        -       0x00000074   Zero   RW         1855    .bss                producer_consumer.o
+    0x20004674        -       0x00000928   Zero   RW         1890    .bss                semaphore_sample.o
+    0x20004f9c        -       0x00000928   Zero   RW         1925    .bss                thread_sample.o
+    0x200058c4   COMPRESSED   0x00000004   PAD
+    0x200058c8        -       0x00000400   Zero   RW         1249    STACK               startup_stm32f103xe.o
 
 
 ==============================================================================
@@ -2220,63 +2224,63 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       400         80         86          0          0     457708   board.o
-       108          6          0          4          0       1304   clock.o
-      3068       1334       1618          0          0      14707   cmd.o
-       220         42         36          0          0       2454   components.o
-       240         26          0          0          0        720   context_rvds.o
-      1492        718         19         16          0       3739   cpuport.o
-      1328        312        201          0          0       5542   device.o
-      1404         44       2412        192          0      11978   drv_gpio.o
-      1228        178        115         68         84      26187   drv_usart.o
-       208         92         46          0          0       1487   dynmem_sample.o
-       516        264         44          0       2376       1861   event_sample.o
-       468         78         22          0        420       5132   idle.o
-       312        136         52          8          0       1657   idlehook_sample.o
-       184         58         52          4          0       1546   interrupt_sample.o
-      7176       1040        849          0          0      22095   ipc.o
-       124         14          0          9          0       1684   irq.o
-      2736        228        290         12        128      12068   kservice.o
-       404        174         48         39       2520       2009   mailbox_sample.o
-       112         36         49          0          0      19272   main.o
-      2292        644        358         32         32       5283   mem.o
-       352        118         48          8       4352       1789   memp_sample.o
-      1264        264         62          8          0       6774   mempool.o
-       604        296         42          0       4444       1945   msgq_sample.o
-       872        136         59          0          0       4112   msh.o
-        34          0        159          0          0       2091   msh_cmd.o
-       432        178         44          6       2344       1793   mutex_sample.o
-       888        186        128        180          0       7995   object.o
-       592         94        267          0         68       4891   pin.o
-       596        218         53         16          0       2009   priority_inversion.o
-       728        290         61         16        116       2115   producer_consumer.o
-       776        148         78         28        256       6309   scheduler.o
-       216         82         55         16          0       1703   scheduler_hook.o
-       508        264         52         13       2344       1905   semaphore_sample.o
-      1328        148        181          0          0       5785   serial.o
-      2236        222         95          4        129       5673   shell.o
-      1476        172         72          4          0       7996   signal.o
-       188         64         46          4          0       1624   signal_sample.o
-        36          8        304          0       1024        836   startup_stm32f103xe.o
-       348         30          0          4          0       3931   stm32f1xx_hal.o
-       708         22          0          0          0      27170   stm32f1xx_hal_cortex.o
-      3812         40          0          0          0       6541   stm32f1xx_hal_dma.o
-      1256         42          0          0          0       3807   stm32f1xx_hal_gpio.o
-      2216         94          0          0          0       5183   stm32f1xx_hal_rcc.o
-      4618         46          0          0          0      15784   stm32f1xx_hal_uart.o
-        16          0          0          0          0        769   stm32f1xx_it.o
-         0          0          0         16          0       4893   symbol.o
-       244         32         24          4          0       1553   system_stm32f1xx.o
-      2040        416        251         12          0      10318   thread.o
-       232         92         46          4       1172       1669   thread_sample.o
-      1436        268         92         16          0       8427   timer.o
-       260        128         44         12          0       1529   timer_sample.o
-       180         66         52          0          0       1509   timeslice_sample.o
+       400         80         86          0          0     445414   board.o
+       108          6          0          4          0       1392   clock.o
+      3068       1334       1618          0          0      14875   cmd.o
+       220         42         36          0          0       2578   components.o
+       240         26          0          0          0        760   context_rvds.o
+      1492        718         19         16          0       3863   cpuport.o
+      1328        312        201          0          0       5626   device.o
+      1404         44       2412        192          0       7474   drv_gpio.o
+      1228        178        115         68         84      26323   drv_usart.o
+       208         92         46          0          0       1611   dynmem_sample.o
+       516        264         44          0       2376       1981   event_sample.o
+       468         78         22          0        420       5296   idle.o
+       312        136         52          8          0       1781   idlehook_sample.o
+       184         58         52          4          0       1670   interrupt_sample.o
+      7176       1040        849          0          0      22219   ipc.o
+       124         14          0          9          0       1812   irq.o
+      2736        228        290         12        128      12196   kservice.o
+       404        174         48         39       2520       2133   mailbox_sample.o
+       112         36         49          0          0      23976   main.o
+      2292        644        358         32         32       5411   mem.o
+       352        118         48          8       4352       1913   memp_sample.o
+      1264        264         62          8          0       6938   mempool.o
+       604        296         42          0       4444       2069   msgq_sample.o
+       872        136         59          0          0       4232   msh.o
+        34          0        159          0          0       2215   msh_cmd.o
+       432        178         44          6       2344       1913   mutex_sample.o
+       888        186        128        180          0       8155   object.o
+       592         94        267          0         68       5011   pin.o
+       596        218         53         16          0       2133   priority_inversion.o
+       728        290         61         16        116       2239   producer_consumer.o
+       776        148         78         28        256       6473   scheduler.o
+       216         82         55         16          0       1823   scheduler_hook.o
+       508        264         52         13       2344       2029   semaphore_sample.o
+      1328        148        181          0          0       5865   serial.o
+      2236        222         95          4        129       5841   shell.o
+      1476        172         72          4          0       8148   signal.o
+       188         64         46          4          0       1744   signal_sample.o
+        36          8        304          0       1024        876   startup_stm32f103xe.o
+       348         30          0          4          0       4051   stm32f1xx_hal.o
+       708         22          0          0          0      27262   stm32f1xx_hal_cortex.o
+      3812         40          0          0          0       6621   stm32f1xx_hal_dma.o
+      1256         42          0          0          0       3891   stm32f1xx_hal_gpio.o
+      2216         94          0          0          0       5263   stm32f1xx_hal_rcc.o
+      4618         46          0          0          0      15864   stm32f1xx_hal_uart.o
+        16          0          0          0          0        813   stm32f1xx_it.o
+         0          0          0         16          0       5037   symbol.o
+       244         32         24          4          0       1673   system_stm32f1xx.o
+      2040        416        251         12          0      10486   thread.o
+       316        128         46          4       2344       2005   thread_sample.o
+      1436        268         92         16          0       8595   timer.o
+       260        128         44         12          0       1649   timer_sample.o
+       180         66         52          0          0       1633   timeslice_sample.o
 
     ----------------------------------------------------------------------
-     54516       9668       8656        764      21812     758861   Object Totals
+     54600       9704       8656        764      22988     752851   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-         4          0         12          9          3          0   (incl. Padding)
+         4          0         12          9          7          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -2321,15 +2325,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     54872       9684       8656        764      21812     755073   Grand Totals
-     54872       9684       8656        148      21812     755073   ELF Image Totals (compressed)
-     54872       9684       8656        148          0          0   ROM Totals
+     54956       9720       8656        764      22988     749063   Grand Totals
+     54956       9720       8656        148      22988     749063   ELF Image Totals (compressed)
+     54956       9720       8656        148          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                63528 (  62.04kB)
-    Total RW  Size (RW Data + ZI Data)             22576 (  22.05kB)
-    Total ROM Size (Code + RO Data + RW Data)      63676 (  62.18kB)
+    Total RO  Size (Code + RO Data)                63612 (  62.12kB)
+    Total RW  Size (RW Data + ZI Data)             23752 (  23.20kB)
+    Total ROM Size (Code + RO Data + RW Data)      63760 (  62.27kB)
 
 ==============================================================================
 
